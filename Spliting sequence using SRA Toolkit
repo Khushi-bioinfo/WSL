@@ -1,0 +1,5 @@
+prefetch SRR17437043 
+fastq-dump --split-files SRR17437043 
+grep-c"@"SRR17437043_1_.fastq
+fastqc SRR17437043_1_.fastq 
+ls SRR17437043_1_fastqc.html
