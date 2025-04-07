@@ -1,210 +1,11 @@
-Script started on 2025-04-07 12:24:50+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="213" LINES="50"]
-[?2004h]0;dmin@DESKTOP-M9OBISM: ~[01;32mdmin@DESKTOP-M9OBISM[00m:[01;34m~[00m$ sudo apt update
-[?2004l[sudo] password for dmin: 
-[33m0% [Working][0m[33m0% [Connecting to archive.ubuntu.com] [Connecting to security.ubuntu.com][0m[33m0% [Connecting to archive.ubuntu.com (185.125.190.82)] [Connecting to security.ubuntu.com (91.189.91.82)][0m                                                                                                         Hit:1 http://archive.ubuntu.com/ubuntu noble InRelease
-[33m                                                                                                         0% [Waiting for headers][0m                        Get:2 http://archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
-[33m0% [2 InRelease 2532 B/126 kB 2%] [Waiting for headers][0m[33m0% [2 InRelease 15.3 kB/126 kB 12%] [Waiting for headers][0m                                                         Get:3 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
-[33m0% [2 InRelease 15.3 kB/126 kB 12%] [3 InRelease 1112 B/126 kB 1%][0m[33m                                                                  0% [3 InRelease 38.0 kB/126 kB 30%][0m                                   Get:4 http://archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
-[33m0% [4 InRelease 2532 B/126 kB 2%] [3 InRelease 48.0 kB/126 kB 38%][0m[33m0% [4 InRelease 29.5 kB/126 kB 23%] [3 InRelease 50.8 kB/126 kB 40%][0m[33m                                                                    0% [3 InRelease 66.4 kB/126 kB 53%][0m[33m0% [Waiting for headers] [3 InRelease 92.0 kB/126 kB 73%][0m                                                         Get:5 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [989 kB]
-[33m0% [5 Packages 2601 B/989 kB 0%] [3 InRelease 92.0 kB/126 kB 73%][0m[33m                                                                 0% [5 Packages 182 kB/989 kB 18%][0m[33m25% [5 Packages 497 kB/989 kB 50%][0m[33m30% [Waiting for headers] [Waiting for headers][0m                                               Get:6 http://archive.ubuntu.com/ubuntu noble-updates/main Translation-en [218 kB]
-                                               Get:7 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [151 kB]
-                                               Get:8 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 c-n-f Metadata [13.5 kB]
-                                               Get:9 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1050 kB]
-[33m35% [9 Packages 119 kB/1050 kB 11%] [Waiting for headers][0m[33m35% [5 Packages store 0 B] [9 Packages 119 kB/1050 kB 11%] [Waiting for headers][0m                                                                                Get:10 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [737 kB]
-[33m35% [5 Packages store 0 B] [9 Packages 142 kB/1050 kB 14%] [10 Packages 1181 B/737 kB 0%][0m[33m                                                                                         42% [9 Packages 643 kB/1050 kB 61%] [10 Packages 92.1 kB/737 kB 12%][0m[33m42% [6 Translation-en store 0 B] [9 Packages 643 kB/1050 kB 61%] [10 Packages 92.1 kB/737 kB 12%][0m[33m                                                                                                 45% [9 Packages 866 kB/1050 kB 82%] [10 Packages 103 kB/737 kB 14%][0m[33m45% [7 Components-amd64 store 0 B] [9 Packages 866 kB/1050 kB 82%] [10 Packages 103 kB/737 kB 14%][0m[33m                                                                                                  46% [9 Packages 996 kB/1050 kB 95%] [10 Packages 115 kB/737 kB 16%][0m[33m46% [8 Commands-amd64 store 0 B] [9 Packages 996 kB/1050 kB 95%] [10 Packages 115 kB/737 kB 16%][0m[33m                                                                                                46% [9 Packages 996 kB/1050 kB 95%] [10 Packages 115 kB/737 kB 16%][0m[33m                                                                   47% [10 Packages 122 kB/737 kB 17%][0m                                   Get:11 http://archive.ubuntu.com/ubuntu noble-updates/universe Translation-en [265 kB]
-[33m47% [11 Translation-en 9612 B/265 kB 4%] [10 Packages 123 kB/737 kB 17%][0m[33m47% [9 Packages store 0 B] [11 Translation-en 9612 B/265 kB 4%] [10 Packages 123 kB/737 kB 17%][0m[33m                                                                                               50% [9 Packages store 0 B] [Waiting for headers] [10 Packages 142 kB/737 kB 19%][0m                                                                                Get:12 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [365 kB]
-[33m50% [9 Packages store 0 B] [12 Components-amd64 8192 B/365 kB 2%] [10 Packages 142 kB/737 kB 19%][0m[33m                                                                                                 54% [12 Components-amd64 349 kB/365 kB 95%] [10 Packages 142 kB/737 kB 19%][0m[33m54% [11 Translation-en store 0 B] [12 Components-amd64 349 kB/365 kB 95%] [10 Packages 142 kB/737 kB 19%][0m[33m                                                                                                         54% [11 Translation-en store 0 B] [Waiting for headers] [10 Packages 145 kB/737 kB 20%][0m                                                                                       Get:13 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 c-n-f Metadata [26.0 kB]
-[33m54% [11 Translation-en store 0 B] [13 Commands-amd64 17.2 kB/26.0 kB 66%] [10 Packages 145 kB/737 kB 20%][0m[33m                                                                                                         54% [11 Translation-en store 0 B] [Waiting for headers] [10 Packages 145 kB/737 kB 20%][0m                                                                                       Get:14 http://archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [892 kB]
-[33m54% [11 Translation-en store 0 B] [14 Packages 2609 B/892 kB 0%] [10 Packages 145 kB/737 kB 20%][0m[33m                                                                                                56% [14 Packages 96.9 kB/892 kB 11%] [10 Packages 184 kB/737 kB 25%][0m[33m56% [12 Components-amd64 store 0 B] [14 Packages 96.9 kB/892 kB 11%] [10 Packages 184 kB/737 kB 25%][0m[33m                                                                                                    62% [14 Packages 574 kB/892 kB 64%] [10 Packages 251 kB/737 kB 34%][0m[33m62% [13 Commands-amd64 store 0 B] [14 Packages 574 kB/892 kB 64%] [10 Packages 253 kB/737 kB 34%][0m[33m                                                                                                 62% [14 Packages 580 kB/892 kB 65%] [10 Packages 254 kB/737 kB 34%][0m[33m                                                                   66% [Waiting for headers] [10 Packages 270 kB/737 kB 37%][0m                                                         Get:15 http://archive.ubuntu.com/ubuntu noble-updates/restricted Translation-en [180 kB]
-[33m66% [15 Translation-en 6936 B/180 kB 4%] [10 Packages 270 kB/737 kB 37%][0m[33m66% [14 Packages store 0 B] [15 Translation-en 9776 B/180 kB 5%] [10 Packages 270 kB/737 kB 37%][0m[33m                                                                                                69% [15 Translation-en 22.6 kB/180 kB 13%] [10 Packages 498 kB/737 kB 68%][0m[33m                                                                          71% [Waiting for headers] [10 Packages 522 kB/737 kB 71%][0m                                                         Get:16 http://archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Components [212 B]
-                                                         Get:17 http://archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
-[33m71% [17 Components-amd64 940 B/940 B 100%] [10 Packages 522 kB/737 kB 71%][0m[33m71% [15 Translation-en store 0 B] [Waiting for headers] [10 Packages 522 kB/737 kB 71%][0m                                                                                       Get:18 http://archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [7080 B]
-[33m71% [15 Translation-en store 0 B] [18 Components-amd64 7080 B/7080 B 100%] [10 Packages 522 kB/737 kB 71%][0m[33m                                                                                                          71% [15 Translation-en store 0 B] [Waiting for headers] [10 Packages 522 kB/737 kB 71%][0m                                                                                       Get:19 http://archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [15.8 kB]
-[33m71% [15 Translation-en store 0 B] [19 Components-amd64 15.8 kB/15.8 kB 100%] [10 Packages 522 kB/737 kB 71%][0m[33m                                                                                                            71% [15 Translation-en store 0 B] [Waiting for headers] [10 Packages 522 kB/737 kB 71%][0m                                                                                       Get:20 http://archive.ubuntu.com/ubuntu noble-backports/restricted amd64 Components [216 B]
-[33m71% [15 Translation-en store 0 B] [20 Components-amd64 216 B/216 B 100%] [10 Packages 522 kB/737 kB 71%][0m                                                                                                        Get:21 http://archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 Components [212 B]
-[33m71% [15 Translation-en store 0 B] [21 Components-amd64 212 B/212 B 100%] [10 Packages 522 kB/737 kB 71%][0m[33m                                                                                                        71% [15 Translation-en store 0 B] [10 Packages 522 kB/737 kB 71%][0m[33m                                                                 71% [10 Packages 534 kB/737 kB 72%][0m[33m71% [16 Components-amd64 store 0 B] [10 Packages 534 kB/737 kB 72%][0m[33m                                                                   71% [10 Packages 534 kB/737 kB 72%][0m[33m71% [17 Components-amd64 store 0 B] [10 Packages 534 kB/737 kB 72%][0m[33m                                                                   71% [10 Packages 534 kB/737 kB 72%][0m[33m71% [18 Components-amd64 store 0 B] [10 Packages 534 kB/737 kB 72%][0m[33m                                                                   72% [10 Packages 539 kB/737 kB 73%][0m[33m72% [19 Components-amd64 store 0 B] [10 Packages 539 kB/737 kB 73%][0m[33m                                                                   72% [10 Packages 542 kB/737 kB 74%][0m[33m72% [20 Components-amd64 store 0 B] [10 Packages 542 kB/737 kB 74%][0m[33m                                                                   72% [10 Packages 542 kB/737 kB 74%][0m[33m72% [21 Components-amd64 store 0 B] [10 Packages 542 kB/737 kB 74%][0m[33m                                                                   72% [10 Packages 542 kB/737 kB 74%][0m[33m                                   74% [Working][0m[33m74% [10 Packages store 0 B][0m[33m                           74% [Waiting for headers][0m                         Get:22 http://security.ubuntu.com/ubuntu noble-security/main Translation-en [141 kB]
-[33m75% [22 Translation-en 5441 B/141 kB 4%][0m[33m                                        76% [Waiting for headers][0m                         Get:23 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [9008 B]
-[33m76% [23 Components-amd64 9008 B/9008 B 100%][0m[33m                                            76% [Working][0m             Get:24 http://security.ubuntu.com/ubuntu noble-security/main amd64 c-n-f Metadata [7068 B]
-[33m76% [22 Translation-en store 0 B] [24 Commands-amd64 2613 B/7068 B 37%][0m[33m                                                                       76% [22 Translation-en store 0 B] [Waiting for headers][0m                                                       Get:25 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [828 kB]
-[33m76% [22 Translation-en store 0 B] [25 Packages 6666 B/828 kB 1%][0m[33m                                                                80% [25 Packages 321 kB/828 kB 39%][0m[33m80% [23 Components-amd64 store 0 B] [25 Packages 324 kB/828 kB 39%][0m[33m                                                                   80% [25 Packages 335 kB/828 kB 40%][0m[33m80% [24 Commands-amd64 store 0 B] [25 Packages 338 kB/828 kB 41%][0m[33m                                                                 80% [25 Packages 344 kB/828 kB 42%][0m[33m                                   85% [Waiting for headers][0m                         Get:26 http://security.ubuntu.com/ubuntu noble-security/universe Translation-en [180 kB]
-[33m86% [26 Translation-en 49.4 kB/180 kB 27%][0m[33m86% [25 Packages store 0 B] [26 Translation-en 49.4 kB/180 kB 27%][0m[33m                                                                  87% [25 Packages store 0 B] [Waiting for headers][0m                                                 Get:27 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [52.2 kB]
-[33m88% [25 Packages store 0 B] [27 Components-amd64 52.2 kB/52.2 kB 100%][0m[33m                                                                      88% [25 Packages store 0 B] [Waiting for headers][0m                                                 Get:28 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [849 kB]
-[33m89% [25 Packages store 0 B] [28 Packages 78.9 kB/849 kB 9%][0m[33m                                                           97% [28 Packages 818 kB/849 kB 96%][0m[33m97% [26 Translation-en store 0 B] [28 Packages 818 kB/849 kB 96%][0m[33m                                                                 97% [26 Translation-en store 0 B] [Waiting for headers][0m                                                       Get:29 http://security.ubuntu.com/ubuntu noble-security/restricted Translation-en [172 kB]
-[33m97% [26 Translation-en store 0 B] [29 Translation-en 5516 B/172 kB 3%][0m[33m                                                                      99% [29 Translation-en 142 kB/172 kB 83%][0m[33m99% [27 Components-amd64 store 0 B] [29 Translation-en 148 kB/172 kB 86%][0m[33m                                                                         99% [27 Components-amd64 store 0 B] [Waiting for headers][0m                                                         Get:30 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Components [212 B]
-                                                         Get:31 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components [212 B]
-[33m99% [27 Components-amd64 store 0 B] [31 Components-amd64 212 B/212 B 100%][0m[33m                                                                          99% [27 Components-amd64 store 0 B][0m[33m                                   99% [Working][0m[33m99% [28 Packages store 0 B][0m[33m                           99% [Working][0m[33m99% [29 Translation-en store 0 B][0m[33m                                 100% [Working][0m[33m100% [30 Components-amd64 store 0 B][0m[33m                                    100% [Working][0m[33m100% [31 Components-amd64 store 0 B][0m[33m                                    100% [Working][0m              Fetched 7528 kB in 6s (1304 kB/s)
-Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 4%Reading package lists... 4%Reading package lists... 6%Reading package lists... 6%Reading package lists... 27%Reading package lists... 49%Reading package lists... 49%Reading package lists... 59%Reading package lists... 68%Reading package lists... 68%Reading package lists... 69%Reading package lists... 69%Reading package lists... 69%Reading package lists... 69%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 73%Reading package lists... 73%Reading package lists... 75%Reading package lists... 75%Reading package lists... 79%Reading package lists... 79%Reading package lists... 80%Reading package lists... 80%Reading package lists... 83%Reading package lists... 83%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 88%Reading package lists... 88%Reading package lists... 90%Reading package lists... 90%Reading package lists... 93%Reading package lists... 93%Reading package lists... 94%Reading package lists... 94%Reading package lists... 97%Reading package lists... 97%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
-Reading state information... 0% Reading state information... 0%Reading state information... Done
-91 packages can be upgraded. Run 'apt list --upgradable' to see them.
-[?2004h]0;dmin@DESKTOP-M9OBISM: ~[01;32mdmin@DESKTOP-M9OBISM[00m:[01;34m~[00m$ sudo apt install -y raxml mafft ncbi-entrez-direct
-[?2004lReading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
-Reading state information... 0% Reading state information... 0%Reading state information... Done
-The following additional packages will be installed:
-  bzip2 fonts-lato javascript-common libjs-jquery libruby libruby3.2 lynx lynx-common mailcap rake ruby ruby-net-telnet ruby-rubygems ruby-sdbm ruby-webrick ruby-xmlrpc ruby3.2 rubygems-integration unzip zip
-Suggested packages:
-  bzip2-doc apache2 | lighttpd | httpd libxml-simple-perl libxml2-utils ri ruby-dev bundler
-Recommended packages:
-  blast2
-The following NEW packages will be installed:
-  bzip2 fonts-lato javascript-common libjs-jquery libruby libruby3.2 lynx lynx-common mafft mailcap ncbi-entrez-direct rake raxml ruby ruby-net-telnet ruby-rubygems ruby-sdbm ruby-webrick ruby-xmlrpc ruby3.2
-  rubygems-integration unzip zip
-0 upgraded, 23 newly installed, 0 to remove and 91 not upgraded.
-Need to get 19.8 MB of archives.
-After this operation, 83.0 MB of additional disk space will be used.
-[33m0% [Working][0m[33m0% [Connecting to archive.ubuntu.com (91.189.91.82)][0m                                                    Get:1 http://archive.ubuntu.com/ubuntu noble/main amd64 fonts-lato all 2.015-1 [2781 kB]
-[33m                                                    0% [1 fonts-lato 13.9 kB/2781 kB 1%][0m[33m0% [1 fonts-lato 42.3 kB/2781 kB 2%][0m[33m                                    0% [1 fonts-lato 101 kB/2781 kB 4%][0m[33m2% [1 fonts-lato 383 kB/2781 kB 14%][0m[33m4% [1 fonts-lato 1068 kB/2781 kB 38%][0m[33m                                     12% [Working][0m             Get:2 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 bzip2 amd64 1.0.8-5.1build0.1 [34.5 kB]
-[33m12% [2 bzip2 8230 B/34.5 kB 24%][0m[33m                                13% [Waiting for headers][0m                         Get:3 http://archive.ubuntu.com/ubuntu noble/main amd64 javascript-common all 11+nmu1 [5936 B]
-[33m                         14% [Working][0m             Get:4 http://archive.ubuntu.com/ubuntu noble/main amd64 libjs-jquery all 3.6.1+dfsg+~3.5.14-1 [328 kB]
-[33m14% [4 libjs-jquery 19.7 kB/328 kB 6%][0m[33m                                      16% [Waiting for headers][0m                         Get:5 http://archive.ubuntu.com/ubuntu noble/main amd64 rubygems-integration all 1.18 [5336 B]
-[33m16% [5 rubygems-integration 5336 B/5336 B 100%][0m[33m                                               17% [Working][0m             Get:6 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 ruby3.2 amd64 3.2.3-1ubuntu0.24.04.3 [50.7 kB]
-[33m17% [6 ruby3.2 35.6 kB/50.7 kB 70%][0m[33m                                   18% [Waiting for headers][0m                         Get:7 http://archive.ubuntu.com/ubuntu noble/main amd64 ruby-rubygems all 3.4.20-1 [238 kB]
-[33m18% [7 ruby-rubygems 0 B/238 kB 0%][0m[33m                                   20% [Waiting for headers][0m                         Get:8 http://archive.ubuntu.com/ubuntu noble/main amd64 ruby amd64 1:3.2~ubuntu1 [3466 B]
-[33m20% [8 ruby 2894 B/3466 B 83%][0m[33m                              21% [Working][0m             Get:9 http://archive.ubuntu.com/ubuntu noble/main amd64 rake all 13.0.6-3 [61.6 kB]
-[33m21% [9 rake 16.4 kB/61.6 kB 27%][0m[33m                                22% [Waiting for headers][0m                         Get:10 http://archive.ubuntu.com/ubuntu noble/main amd64 ruby-net-telnet all 0.2.0-1 [13.3 kB]
-[33m22% [10 ruby-net-telnet 222 B/13.3 kB 2%][0m[33m                                         23% [Working][0m             Get:11 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 ruby-webrick all 1.8.1-1ubuntu0.1 [52.6 kB]
-[33m23% [11 ruby-webrick 8230 B/52.6 kB 16%][0m[33m                                        24% [Waiting for headers][0m                         Get:12 http://archive.ubuntu.com/ubuntu noble/main amd64 ruby-xmlrpc all 0.3.2-2 [24.8 kB]
-[33m24% [12 ruby-xmlrpc 13.9 kB/24.8 kB 56%][0m[33m                                        25% [Waiting for headers][0m                         Get:13 http://archive.ubuntu.com/ubuntu noble/main amd64 ruby-sdbm amd64 1.0.0-5build4 [16.2 kB]
-[33m25% [13 ruby-sdbm 8750 B/16.2 kB 54%][0m[33m                                     26% [Working][0m             Get:14 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libruby3.2 amd64 3.2.3-1ubuntu0.24.04.3 [5341 kB]
-[33m26% [14 libruby3.2 50.8 kB/5341 kB 1%][0m[33m37% [14 libruby3.2 2623 kB/5341 kB 49%][0m[33m45% [14 libruby3.2 4753 kB/5341 kB 89%][0m[33m                                       48% [Waiting for headers][0m                         Get:15 http://archive.ubuntu.com/ubuntu noble/main amd64 libruby amd64 1:3.2~ubuntu1 [4694 B]
-[33m48% [15 libruby 2785 B/4694 B 59%][0m[33m                                  49% [Waiting for headers][0m                         Get:16 http://archive.ubuntu.com/ubuntu noble/universe amd64 lynx-common all 2.9.0rel.0-2build2 [1006 kB]
-[33m49% [16 lynx-common 33.3 kB/1006 kB 3%][0m[33m                                       54% [Waiting for headers][0m                         Get:17 http://archive.ubuntu.com/ubuntu noble/universe amd64 mafft amd64 7.505-1 [795 kB]
-[33m54% [17 mafft 4096 B/795 kB 1%][0m[33m                               58% [Waiting for headers][0m                         Get:18 http://archive.ubuntu.com/ubuntu noble/main amd64 mailcap all 3.70+nmu1ubuntu1 [23.8 kB]
-[33m58% [18 mailcap 23.8 kB/23.8 kB 100%][0m[33m                                     59% [Waiting for headers][0m                         Get:19 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 ncbi-entrez-direct amd64 19.2.20230331+dfsg-3ubuntu0.24.04.2 [6315 kB]
-[33m59% [19 ncbi-entrez-direct 16.5 kB/6315 kB 0%][0m[33m69% [19 ncbi-entrez-direct 2437 kB/6315 kB 39%]                                                                                                                                                         2130 kB/s 3s[0m[33m77% [19 ncbi-entrez-direct 4396 kB/6315 kB 70%]                                                                                                                                                         2130 kB/s 2s[0m[33m86% [Waiting for headers]                                                                                                                                                                               2130 kB/s 1s[0m                                                                                                                                                                                                                    Get:20 http://archive.ubuntu.com/ubuntu noble/universe amd64 raxml amd64 8.2.13+dfsg-1 [1640 kB]
-[33m86% [20 raxml 13.4 kB/1640 kB 1%]                                                                                                                                                                       2130 kB/s 1s[0m[33m88% [20 raxml 504 kB/1640 kB 31%]                                                                                                                                                                       2130 kB/s 1s[0m[33m93% [Waiting for headers]                                                                                                                                                                               2130 kB/s 0s[0m                                                                                                                                                                                                                    Get:21 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 unzip amd64 6.0-28ubuntu4.1 [174 kB]
-[33m93% [21 unzip 42.6 kB/174 kB 24%]                                                                                                                                                                       2130 kB/s 0s[0m[33m95% [Waiting for headers]                                                                                                                                                                               2130 kB/s 0s[0m                                                                                                                                                                                                                    Get:22 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 zip amd64 3.0-13ubuntu0.2 [176 kB]
-[33m95% [22 zip 18.1 kB/176 kB 10%]                                                                                                                                                                         2130 kB/s 0s[0m[33m96% [Waiting for headers]                                                                                                                                                                               2130 kB/s 0s[0m                                                                                                                                                                                                                    Get:23 http://archive.ubuntu.com/ubuntu noble/universe amd64 lynx amd64 2.9.0rel.0-2build2 [715 kB]
-[33m96% [23 lynx 19.6 kB/715 kB 3%]                                                                                                                                                                         2130 kB/s 0s[0m[33m100% [Working]                                                                                                                                                                                          2130 kB/s 0s[0m                                                                                                                                                                                                                    Fetched 19.8 MB in 8s (2487 kB/s)
+Script started 
 
-7[0;49r8[1ASelecting previously unselected package fonts-lato.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 75199 files and directories currently installed.)
-Preparing to unpack .../00-fonts-lato_2.015-1_all.deb ...
-7[50;0f[42m[30mProgress: [  0%][49m[39m [...............................................................................................................................................................................................] 87[50;0f[42m[30mProgress: [  1%][49m[39m [##.............................................................................................................................................................................................] 8Unpacking fonts-lato (2.015-1) ...
-7[50;0f[42m[30mProgress: [  2%][49m[39m [####...........................................................................................................................................................................................] 8Selecting previously unselected package bzip2.
-Preparing to unpack .../01-bzip2_1.0.8-5.1build0.1_amd64.deb ...
-7[50;0f[42m[30mProgress: [  3%][49m[39m [######.........................................................................................................................................................................................] 8Unpacking bzip2 (1.0.8-5.1build0.1) ...
-7[50;0f[42m[30mProgress: [  4%][49m[39m [########.......................................................................................................................................................................................] 8Selecting previously unselected package javascript-common.
-Preparing to unpack .../02-javascript-common_11+nmu1_all.deb ...
-7[50;0f[42m[30mProgress: [  5%][49m[39m [##########.....................................................................................................................................................................................] 8Unpacking javascript-common (11+nmu1) ...
-7[50;0f[42m[30mProgress: [  6%][49m[39m [############...................................................................................................................................................................................] 8Selecting previously unselected package libjs-jquery.
-Preparing to unpack .../03-libjs-jquery_3.6.1+dfsg+~3.5.14-1_all.deb ...
-7[50;0f[42m[30mProgress: [  8%][49m[39m [##############.................................................................................................................................................................................] 8Unpacking libjs-jquery (3.6.1+dfsg+~3.5.14-1) ...
-7[50;0f[42m[30mProgress: [  9%][49m[39m [################...............................................................................................................................................................................] 8Selecting previously unselected package rubygems-integration.
-Preparing to unpack .../04-rubygems-integration_1.18_all.deb ...
-7[50;0f[42m[30mProgress: [ 10%][49m[39m [##################.............................................................................................................................................................................] 8Unpacking rubygems-integration (1.18) ...
-7[50;0f[42m[30mProgress: [ 11%][49m[39m [####################...........................................................................................................................................................................] 8Selecting previously unselected package ruby3.2.
-Preparing to unpack .../05-ruby3.2_3.2.3-1ubuntu0.24.04.3_amd64.deb ...
-7[50;0f[42m[30mProgress: [ 12%][49m[39m [######################.........................................................................................................................................................................] 8Unpacking ruby3.2 (3.2.3-1ubuntu0.24.04.3) ...
-7[50;0f[42m[30mProgress: [ 13%][49m[39m [########################.......................................................................................................................................................................] 8Selecting previously unselected package ruby-rubygems.
-Preparing to unpack .../06-ruby-rubygems_3.4.20-1_all.deb ...
-7[50;0f[42m[30mProgress: [ 14%][49m[39m [##########################.....................................................................................................................................................................] 8Unpacking ruby-rubygems (3.4.20-1) ...
-7[50;0f[42m[30mProgress: [ 15%][49m[39m [############################...................................................................................................................................................................] 8Selecting previously unselected package ruby.
-Preparing to unpack .../07-ruby_1%3a3.2~ubuntu1_amd64.deb ...
-7[50;0f[42m[30mProgress: [ 16%][49m[39m [##############################.................................................................................................................................................................] 8Unpacking ruby (1:3.2~ubuntu1) ...
-7[50;0f[42m[30mProgress: [ 17%][49m[39m [################################...............................................................................................................................................................] 8Selecting previously unselected package rake.
-Preparing to unpack .../08-rake_13.0.6-3_all.deb ...
-7[50;0f[42m[30mProgress: [ 18%][49m[39m [##################################.............................................................................................................................................................] 8Unpacking rake (13.0.6-3) ...
-7[50;0f[42m[30mProgress: [ 19%][49m[39m [####################################...........................................................................................................................................................] 8Selecting previously unselected package ruby-net-telnet.
-Preparing to unpack .../09-ruby-net-telnet_0.2.0-1_all.deb ...
-7[50;0f[42m[30mProgress: [ 20%][49m[39m [#######################################........................................................................................................................................................] 8Unpacking ruby-net-telnet (0.2.0-1) ...
-7[50;0f[42m[30mProgress: [ 22%][49m[39m [#########################################......................................................................................................................................................] 8Selecting previously unselected package ruby-webrick.
-Preparing to unpack .../10-ruby-webrick_1.8.1-1ubuntu0.1_all.deb ...
-7[50;0f[42m[30mProgress: [ 23%][49m[39m [###########################################....................................................................................................................................................] 8Unpacking ruby-webrick (1.8.1-1ubuntu0.1) ...
-7[50;0f[42m[30mProgress: [ 24%][49m[39m [#############################################..................................................................................................................................................] 8Selecting previously unselected package ruby-xmlrpc.
-Preparing to unpack .../11-ruby-xmlrpc_0.3.2-2_all.deb ...
-7[50;0f[42m[30mProgress: [ 25%][49m[39m [###############################################................................................................................................................................................] 8Unpacking ruby-xmlrpc (0.3.2-2) ...
-7[50;0f[42m[30mProgress: [ 26%][49m[39m [#################################################..............................................................................................................................................] 8Selecting previously unselected package ruby-sdbm:amd64.
-Preparing to unpack .../12-ruby-sdbm_1.0.0-5build4_amd64.deb ...
-7[50;0f[42m[30mProgress: [ 27%][49m[39m [###################################################............................................................................................................................................] 8Unpacking ruby-sdbm:amd64 (1.0.0-5build4) ...
-7[50;0f[42m[30mProgress: [ 28%][49m[39m [#####################################################..........................................................................................................................................] 8Selecting previously unselected package libruby3.2:amd64.
-Preparing to unpack .../13-libruby3.2_3.2.3-1ubuntu0.24.04.3_amd64.deb ...
-7[50;0f[42m[30mProgress: [ 29%][49m[39m [#######################################################........................................................................................................................................] 8Unpacking libruby3.2:amd64 (3.2.3-1ubuntu0.24.04.3) ...
-7[50;0f[42m[30mProgress: [ 30%][49m[39m [#########################################################......................................................................................................................................] 8Selecting previously unselected package libruby:amd64.
-Preparing to unpack .../14-libruby_1%3a3.2~ubuntu1_amd64.deb ...
-7[50;0f[42m[30mProgress: [ 31%][49m[39m [###########################################################....................................................................................................................................] 8Unpacking libruby:amd64 (1:3.2~ubuntu1) ...
-7[50;0f[42m[30mProgress: [ 32%][49m[39m [#############################################################..................................................................................................................................] 8Selecting previously unselected package lynx-common.
-Preparing to unpack .../15-lynx-common_2.9.0rel.0-2build2_all.deb ...
-7[50;0f[42m[30mProgress: [ 33%][49m[39m [###############################################################................................................................................................................................] 8Unpacking lynx-common (2.9.0rel.0-2build2) ...
-7[50;0f[42m[30mProgress: [ 34%][49m[39m [#################################################################..............................................................................................................................] 8Selecting previously unselected package mafft.
-Preparing to unpack .../16-mafft_7.505-1_amd64.deb ...
-7[50;0f[42m[30mProgress: [ 35%][49m[39m [###################################################################............................................................................................................................] 8Unpacking mafft (7.505-1) ...
-7[50;0f[42m[30mProgress: [ 37%][49m[39m [#####################################################################..........................................................................................................................] 8Selecting previously unselected package mailcap.
-Preparing to unpack .../17-mailcap_3.70+nmu1ubuntu1_all.deb ...
-7[50;0f[42m[30mProgress: [ 38%][49m[39m [#######################################################################........................................................................................................................] 8Unpacking mailcap (3.70+nmu1ubuntu1) ...
-7[50;0f[42m[30mProgress: [ 39%][49m[39m [#########################################################################......................................................................................................................] 8Selecting previously unselected package ncbi-entrez-direct.
-Preparing to unpack .../18-ncbi-entrez-direct_19.2.20230331+dfsg-3ubuntu0.24.04.2_amd64.deb ...
-7[50;0f[42m[30mProgress: [ 40%][49m[39m [###########################################################################....................................................................................................................] 8Adding 'diversion of /usr/bin/efetch to /usr/bin/efetch.acedb by ncbi-entrez-direct'
-Adding 'diversion of /usr/share/man/man1/efetch.1.gz to /usr/share/man/man1/efetch.acedb.1.gz by ncbi-entrez-direct'
-Adding 'diversion of /usr/bin/einfo to /usr/bin/einfo.epub by ncbi-entrez-direct'
-Adding 'diversion of /usr/share/man/man1/einfo.1.gz to /usr/share/man/man1/einfo.epub.1.gz by ncbi-entrez-direct'
-Unpacking ncbi-entrez-direct (19.2.20230331+dfsg-3ubuntu0.24.04.2) ...
-7[50;0f[42m[30mProgress: [ 41%][49m[39m [##############################################################################.................................................................................................................] 8Selecting previously unselected package raxml.
-Preparing to unpack .../19-raxml_8.2.13+dfsg-1_amd64.deb ...
-7[50;0f[42m[30mProgress: [ 42%][49m[39m [################################################################################...............................................................................................................] 8Unpacking raxml (8.2.13+dfsg-1) ...
-7[50;0f[42m[30mProgress: [ 43%][49m[39m [##################################################################################.............................................................................................................] 8Selecting previously unselected package unzip.
-Preparing to unpack .../20-unzip_6.0-28ubuntu4.1_amd64.deb ...
-7[50;0f[42m[30mProgress: [ 44%][49m[39m [####################################################################################...........................................................................................................] 8Unpacking unzip (6.0-28ubuntu4.1) ...
-7[50;0f[42m[30mProgress: [ 45%][49m[39m [######################################################################################.........................................................................................................] 8Selecting previously unselected package zip.
-Preparing to unpack .../21-zip_3.0-13ubuntu0.2_amd64.deb ...
-7[50;0f[42m[30mProgress: [ 46%][49m[39m [########################################################################################.......................................................................................................] 8Unpacking zip (3.0-13ubuntu0.2) ...
-7[50;0f[42m[30mProgress: [ 47%][49m[39m [##########################################################################################.....................................................................................................] 8Selecting previously unselected package lynx.
-Preparing to unpack .../22-lynx_2.9.0rel.0-2build2_amd64.deb ...
-7[50;0f[42m[30mProgress: [ 48%][49m[39m [############################################################################################...................................................................................................] 8Unpacking lynx (2.9.0rel.0-2build2) ...
-7[50;0f[42m[30mProgress: [ 49%][49m[39m [##############################################################################################.................................................................................................] 8Setting up javascript-common (11+nmu1) ...
-7[50;0f[42m[30mProgress: [ 51%][49m[39m [################################################################################################...............................................................................................] 87[50;0f[42m[30mProgress: [ 52%][49m[39m [##################################################################################################.............................................................................................] 8Setting up fonts-lato (2.015-1) ...
-7[50;0f[42m[30mProgress: [ 53%][49m[39m [####################################################################################################...........................................................................................] 87[50;0f[42m[30mProgress: [ 54%][49m[39m [######################################################################################################.........................................................................................] 8Setting up mafft (7.505-1) ...
-7[50;0f[42m[30mProgress: [ 55%][49m[39m [########################################################################################################.......................................................................................] 87[50;0f[42m[30mProgress: [ 56%][49m[39m [##########################################################################################################.....................................................................................] 8Setting up unzip (6.0-28ubuntu4.1) ...
-7[50;0f[42m[30mProgress: [ 57%][49m[39m [############################################################################################################...................................................................................] 87[50;0f[42m[30mProgress: [ 58%][49m[39m [##############################################################################################################.................................................................................] 8Setting up rubygems-integration (1.18) ...
-7[50;0f[42m[30mProgress: [ 59%][49m[39m [################################################################################################################...............................................................................] 87[50;0f[42m[30mProgress: [ 60%][49m[39m [###################################################################################################################............................................................................] 8Setting up bzip2 (1.0.8-5.1build0.1) ...
-7[50;0f[42m[30mProgress: [ 61%][49m[39m [#####################################################################################################################..........................................................................] 87[50;0f[42m[30mProgress: [ 62%][49m[39m [#######################################################################################################################........................................................................] 8Setting up zip (3.0-13ubuntu0.2) ...
-7[50;0f[42m[30mProgress: [ 63%][49m[39m [#########################################################################################################################......................................................................] 87[50;0f[42m[30mProgress: [ 65%][49m[39m [###########################################################################################################################....................................................................] 8Setting up ncbi-entrez-direct (19.2.20230331+dfsg-3ubuntu0.24.04.2) ...
-7[50;0f[42m[30mProgress: [ 66%][49m[39m [#############################################################################################################################..................................................................] 87[50;0f[42m[30mProgress: [ 67%][49m[39m [###############################################################################################################################................................................................] 8Setting up ruby-net-telnet (0.2.0-1) ...
-7[50;0f[42m[30mProgress: [ 68%][49m[39m [#################################################################################################################################..............................................................] 87[50;0f[42m[30mProgress: [ 69%][49m[39m [###################################################################################################################################............................................................] 8Setting up lynx-common (2.9.0rel.0-2build2) ...
-7[50;0f[42m[30mProgress: [ 70%][49m[39m [#####################################################################################################################################..........................................................] 87[50;0f[42m[30mProgress: [ 71%][49m[39m [#######################################################################################################################################........................................................] 8Setting up ruby-webrick (1.8.1-1ubuntu0.1) ...
-7[50;0f[42m[30mProgress: [ 72%][49m[39m [#########################################################################################################################################......................................................] 87[50;0f[42m[30mProgress: [ 73%][49m[39m [###########################################################################################################################################....................................................] 8Setting up lynx (2.9.0rel.0-2build2) ...
-7[50;0f[42m[30mProgress: [ 74%][49m[39m [#############################################################################################################################################..................................................] 8update-alternatives: using /usr/bin/lynx to provide /usr/bin/www-browser (www-browser) in auto mode
-Setting up libjs-jquery (3.6.1+dfsg+~3.5.14-1) ...
-7[50;0f[42m[30mProgress: [ 75%][49m[39m [###############################################################################################################################################................................................] 87[50;0f[42m[30mProgress: [ 76%][49m[39m [#################################################################################################################################################..............................................] 8Setting up mailcap (3.70+nmu1ubuntu1) ...
-7[50;0f[42m[30mProgress: [ 77%][49m[39m [###################################################################################################################################################............................................] 87[50;0f[42m[30mProgress: [ 78%][49m[39m [#####################################################################################################################################################..........................................] 8Setting up ruby-xmlrpc (0.3.2-2) ...
-7[50;0f[42m[30mProgress: [ 80%][49m[39m [#######################################################################################################################################################........................................] 87[50;0f[42m[30mProgress: [ 81%][49m[39m [##########################################################################################################################################################.....................................] 8Setting up raxml (8.2.13+dfsg-1) ...
-7[50;0f[42m[30mProgress: [ 82%][49m[39m [############################################################################################################################################################...................................] 87[50;0f[42m[30mProgress: [ 83%][49m[39m [##############################################################################################################################################################.................................] 8Setting up ruby3.2 (3.2.3-1ubuntu0.24.04.3) ...
-7[50;0f[42m[30mProgress: [ 84%][49m[39m [################################################################################################################################################################...............................] 87[50;0f[42m[30mProgress: [ 85%][49m[39m [##################################################################################################################################################################.............................] 8Setting up libruby:amd64 (1:3.2~ubuntu1) ...
-7[50;0f[42m[30mProgress: [ 86%][49m[39m [####################################################################################################################################################################...........................] 87[50;0f[42m[30mProgress: [ 87%][49m[39m [######################################################################################################################################################################.........................] 8Setting up ruby (1:3.2~ubuntu1) ...
-7[50;0f[42m[30mProgress: [ 88%][49m[39m [########################################################################################################################################################################.......................] 87[50;0f[42m[30mProgress: [ 89%][49m[39m [##########################################################################################################################################################################.....................] 8Setting up rake (13.0.6-3) ...
-7[50;0f[42m[30mProgress: [ 90%][49m[39m [############################################################################################################################################################################...................] 87[50;0f[42m[30mProgress: [ 91%][49m[39m [##############################################################################################################################################################################.................] 8Setting up libruby3.2:amd64 (3.2.3-1ubuntu0.24.04.3) ...
-7[50;0f[42m[30mProgress: [ 92%][49m[39m [################################################################################################################################################################################...............] 87[50;0f[42m[30mProgress: [ 94%][49m[39m [##################################################################################################################################################################################.............] 8Setting up ruby-rubygems (3.4.20-1) ...
-7[50;0f[42m[30mProgress: [ 95%][49m[39m [####################################################################################################################################################################################...........] 87[50;0f[42m[30mProgress: [ 96%][49m[39m [######################################################################################################################################################################################.........] 8Setting up ruby-sdbm:amd64 (1.0.0-5build4) ...
-7[50;0f[42m[30mProgress: [ 97%][49m[39m [########################################################################################################################################################################################.......] 87[50;0f[42m[30mProgress: [ 98%][49m[39m [##########################################################################################################################################################################################.....] 8Processing triggers for fontconfig (2.15.0-1.1ubuntu2) ...
-Processing triggers for libc-bin (2.39-0ubuntu8.4) ...
-Processing triggers for man-db (2.12.0-4build2) ...
-Processing triggers for menu (2.1.50) ...
-7[50;0f[42m[30mProgress: [ 99%][49m[39m [############################################################################################################################################################################################...] 8
-7[0;50r8[1A[J[?2004h]0;dmin@DESKTOP-M9OBISM: ~[01;32mdmin@DESKTOP-M9OBISM[00m:[01;34m~[00m$ sudo apt install -y iqtree
-[?2004lReading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
-Reading state information... 0% Reading state information... 0%Reading state information... Done
-The following NEW packages will be installed:
-  iqtree
-0 upgraded, 1 newly installed, 0 to remove and 91 not upgraded.
-Need to get 3878 kB of archives.
-After this operation, 24.0 MB of additional disk space will be used.
-[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Waiting for headers][0m                        Get:1 http://archive.ubuntu.com/ubuntu noble/universe amd64 iqtree amd64 2.0.7+dfsg-1build2 [3878 kB]
-[33m0% [1 iqtree 13.9 kB/3878 kB 0%][0m[33m1% [1 iqtree 45.1 kB/3878 kB 1%][0m[33m                                4% [1 iqtree 180 kB/3878 kB 5%][0m[33m7% [1 iqtree 343 kB/3878 kB 9%][0m[33m34% [1 iqtree 1630 kB/3878 kB 42%][0m[33m74% [1 iqtree 3588 kB/3878 kB 93%]                                                                                                                                                                       574 kB/s 0s[0m[33m100% [Working]                                                                                                                                                                                           574 kB/s 0s[0m                                                                                                                                                                                                                    Fetched 3878 kB in 6s (615 kB/s)
+sudo apt update
+sudo apt install -y raxml mafft ncbi-entrez-direct
+efetch -db nucleotide -id AJ009655.1,K02233.1,J02989.1,MB126818.1,EU009579.1 -formatfasta > sequences.fasta
+cat sequences.fasta
 
-7[0;49r8[1ASelecting previously unselected package iqtree.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 78822 files and directories currently installed.)
-Preparing to unpack .../iqtree_2.0.7+dfsg-1build2_amd64.deb ...
-7[50;0f[42m[30mProgress: [  0%][49m[39m [...............................................................................................................................................................................................] 87[50;0f[42m[30mProgress: [ 20%][49m[39m [######################################.........................................................................................................................................................] 8Unpacking iqtree (2.0.7+dfsg-1build2) ...
-7[50;0f[42m[30mProgress: [ 40%][49m[39m [############################################################################...................................................................................................................] 8Setting up iqtree (2.0.7+dfsg-1build2) ...
-7[50;0f[42m[30mProgress: [ 60%][49m[39m [##################################################################################################################.............................................................................] 87[50;0f[42m[30mProgress: [ 80%][49m[39m [########################################################################################################################################################.......................................] 8Processing triggers for man-db (2.12.0-4build2) ...
-
-7[0;50r8[1A[J[?2004h]0;dmin@DESKTOP-M9OBISM: ~[01;32mdmin@DESKTOP-M9OBISM[00m:[01;34m~[00m$ efetch -db nucleotide -id AJ009655.1,K02233.1.[K,J02989.1,MB126818.1,EU009579.1 -formatfasta>[K > sequences.fasta
-[?2004l(B[m[31m[1m[7m ERROR: (B[m[31m[1m Unrecognized option -formatfasta(B[m
-[?2004h]0;dmin@DESKTOP-M9OBISM: ~[01;32mdmin@DESKTOP-M9OBISM[00m:[01;34m~[00m$ efetch -db nucleotide -id AJ009655.1,K02233.1,J02989.1,MB126818.1,EU009579.1 -formatfasta > sequences.fasta [1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-[?2004l[?2004h]0;dmin@DESKTOP-M9OBISM: ~[01;32mdmin@DESKTOP-M9OBISM[00m:[01;34m~[00m$ cat sequences.fasta
-[?2004l>AJ009655.1 Homo sapiens ins gene, partial
+>AJ009655.1 Homo sapiens ins gene, partial
 AGCAGGTCTGTTCCAAGGGCCTTTGCGTCAGGTGGGCTCAGGGTTCCAGGGTGGCTGGACCCCAGGCCCC
 AGCTGTGCAGCAGGGAGGACGTGGCTGGGCTCGTGAAGCATGTGGGGGTGAGCCCAGGGGCCCCAAGGCA
 GGGCACCTGGCCTTCAGCCTGCCTCAGCCCTGCCTGTCTCCCAGATCACTGTCCTTCTGCCATGGCCCTG
@@ -302,19 +103,10 @@ CATTACCAGGCCGAAGCAGCGTTGTTGCAGTGCACGGCAGATACACTTGCTGATGCGGTGCTGATTACGA
 CCGCTCACGCGTGGCAGCATCAGGGGAAAACCTTATTTATCAGCCGGAAAACCTACCGGATTGATGGTAG
 TGGTCAAATGGCGATTACCGTTGATGTTGAAGTGGCGAGCGATACACCGCATCCGGCGCGGATTGGCCTG
 AACTGCCAG
-[?2004h]0;dmin@DESKTOP-M9OBISM: ~[01;32mdmin@DESKTOP-M9OBISM[00m:[01;34m~[00m$ cat*fasta >[K[K>[K > combinedgenomes[K[K[K[K[K[K[K_genomes.fasta
-[?2004lcat*fasta: command not found
-[?2004h]0;dmin@DESKTOP-M9OBISM: ~[01;32mdmin@DESKTOP-M9OBISM[00m:[01;34m~[00m$ cat*.fasta > combined_genomes.fasra[K[Kta
-[?2004lcat*.fasta: command not found
-[?2004h]0;dmin@DESKTOP-M9OBISM: ~[01;32mdmin@DESKTOP-M9OBISM[00m:[01;34m~[00m$ cat*.fasta>combined.fasta
-[?2004lcat*.fasta: command not found
-[?2004h]0;dmin@DESKTOP-M9OBISM: ~[01;32mdmin@DESKTOP-M9OBISM[00m:[01;34m~[00m$ cat*.fasta>combined.fasta > combined_genomes.fasta[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15P sequences.fastaefetch -db nucleotide -id AJ009655.1,K02233.1,J02989.1,MB126818.1,EU009579.1 -format fasta > sequences.fasta [2Pfasta > sequences.fasta[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo apt install -y iqtree[Kraxml mafft ncbi-entrez-direct[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cupdate[K[3Pcat query.fals[Kcd blastnls[Kcat query.fasudo apt updateinstall -y raxml mafft ncbi-entrez-directiqtree[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cefetch -db nucleotide -id AJ009655.1,K02233.1,J02989.1,MB126818.1,EU009579.1 -formatfasta > sequences.fasta fasta > sequences.fasta [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat sequences.fasta[K*fasta > combined_genomes.fasta[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15P sequences.fasta[1Psequences.fasta*sequences.fasta[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C > combined.fasta
-[?2004lcat*sequences.fasta: command not found
-[?2004h]0;dmin@DESKTOP-M9OBISM: ~[01;32mdmin@DESKTOP-M9OBISM[00m:[01;34m~[00m$ cat*sequences.fasta > combined.fasta[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11P.fasta>combined.fasta > combined_genomes.fasta[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15P sequences.fastaefetch -db nucleotide -id AJ009655.1,K02233.1,J02989.1,MB126818.1,EU009579.1 -format fasta > sequences.fasta [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat sequences.fasta[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kdone
-[?2004lbash: syntax error near unexpected token `done'
-[?2004h]0;dmin@DESKTOP-M9OBISM: ~[01;32mdmin@DESKTOP-M9OBISM[00m:[01;34m~[00m$ cat sequences*.fasta > combined.fasta
-[?2004l[?2004h]0;dmin@DESKTOP-M9OBISM: ~[01;32mdmin@DESKTOP-M9OBISM[00m:[01;34m~[00m$ cat combined.fasta
-[?2004l>AJ009655.1 Homo sapiens ins gene, partial
+
+cat sequences*.fasta > combined.fasta
+cat combined.fasta
+>AJ009655.1 Homo sapiens ins gene, partial
 AGCAGGTCTGTTCCAAGGGCCTTTGCGTCAGGTGGGCTCAGGGTTCCAGGGTGGCTGGACCCCAGGCCCC
 AGCTGTGCAGCAGGGAGGACGTGGCTGGGCTCGTGAAGCATGTGGGGGTGAGCCCAGGGGCCCCAAGGCA
 GGGCACCTGGCCTTCAGCCTGCCTCAGCCCTGCCTGTCTCCCAGATCACTGTCCTTCTGCCATGGCCCTG
@@ -412,95 +204,10 @@ CATTACCAGGCCGAAGCAGCGTTGTTGCAGTGCACGGCAGATACACTTGCTGATGCGGTGCTGATTACGA
 CCGCTCACGCGTGGCAGCATCAGGGGAAAACCTTATTTATCAGCCGGAAAACCTACCGGATTGATGGTAG
 TGGTCAAATGGCGATTACCGTTGATGTTGAAGTGGCGAGCGATACACCGCATCCGGCGCGGATTGGCCTG
 AACTGCCAG
-[?2004h]0;dmin@DESKTOP-M9OBISM: ~[01;32mdmin@DESKTOP-M9OBISM[00m:[01;34m~[00m$ mafft --auto combined.fasta > aligned_sequences.fasta
-[?2004loutputhat23=16
-treein = 0
-compacttree = 0
-stacksize: 8192 kb
-generating a scoring matrix for nucleotide (dist=200) ... done
-All-to-all alignment.
-    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.505
-alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
-0 thread(s)
 
-outputhat23=16
-Loading 'hat3.seed' ... 
-done.
-Writing hat3 for iterative refinement
-generating a scoring matrix for nucleotide (dist=200) ... done
-Gap Penalty = -1.53, +0.00, +0.00
-tbutree = 1, compacttree = 0
-Constructing a UPGMA tree ... 
-    0 / 5
-done.
+mafft --auto combined.fasta > aligned_sequences.fasta
+ iqtree2 -s aligned_sequences.fasta -m TEST
 
-Progressive alignment ... 
-STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
-done.
-tbfast (nuc) Version 7.505
-alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
-1 thread(s)
-
-minimumweight = 0.000010
-autosubalignment = 0.000000
-nthread = 0
-randomseed = 0
-blosum 62 / kimura 200
-poffset = 0
-niter = 16
-sueff_global = 0.100000
-nadd = 16
-Loading 'hat3' ... done.
-generating a scoring matrix for nucleotide (dist=200) ... done
-
-    0 / 5
-Segment   1/  1    1-2225
-STEP 001-001-0  rejected.STEP 001-001-1  rejected.STEP 001-002-0  rejected.STEP 001-002-1  accepted.STEP 001-003-0  rejected.STEP 001-003-1  rejected.STEP 001-004-1  accepted.STEP 002-004-1  identical.   STEP 002-003-0  rejected.STEP 002-003-1  accepted.STEP 002-002-0  rejected.STEP 002-002-1  accepted.STEP 002-001-0  rejected.STEP 002-001-1  rejected.STEP 003-001-0  rejected.STEP 003-001-1  rejected.STEP 003-002-0  rejected.STEP 003-002-1  identical.   STEP 003-003-0  accepted.STEP 003-003-1  accepted.STEP 003-004-1  accepted.STEP 004-004-1  identical.   STEP 004-003-0  rejected.STEP 004-003-1  rejected.STEP 004-002-0  rejected.STEP 004-002-1  rejected.STEP 004-001-0  rejected.STEP 004-001-1  rejected.STEP 005-001-0  rejected.STEP 005-001-1  rejected.STEP 005-002-0  rejected.
-Converged.
-
-done
-dvtditr (nuc) Version 7.505
-alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
-0 thread(s)
-
-
-Strategy:
- L-INS-i (Probably most accurate, very slow)
- Iterative refinement method (<16) with LOCAL pairwise alignment information
-
-If unsure which option to use, try 'mafft --auto input > output'.
-For more information, see 'mafft --help', 'mafft --man' and the mafft page.
-
-The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
-It tends to insert more gaps into gap-rich regions than previous versions.
-To disable this change, add the --leavegappyregion option.
-
-[?2004h]0;dmin@DESKTOP-M9OBISM: ~[01;32mdmin@DESKTOP-M9OBISM[00m:[01;34m~[00m$ iqtree-s aligned_sequences.fasta -m TEST
-[?2004liqtree-s: command not found
-[?2004h]0;dmin@DESKTOP-M9OBISM: ~[01;32mdmin@DESKTOP-M9OBISM[00m:[01;34m~[00m$ sudo apt install -y iqtree
-[?2004l[sudo] password for dmin: 
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
-Reading state information... 0% Reading state information... 0%Reading state information... Done
-iqtree is already the newest version (2.0.7+dfsg-1build2).
-0 upgraded, 0 newly installed, 0 to remove and 91 not upgraded.
-[?2004h]0;dmin@DESKTOP-M9OBISM: ~[01;32mdmin@DESKTOP-M9OBISM[00m:[01;34m~[00m$ iqtree -s aligned_sequences.fasta -m TEST
-[?2004lCommand 'iqtree' not found, did you mean:
-  command 'iqtree2' from deb iqtree (2.0.7+dfsg-1)
-Try: sudo apt install <deb name>
-[?2004h]0;dmin@DESKTOP-M9OBISM: ~[01;32mdmin@DESKTOP-M9OBISM[00m:[01;34m~[00m$ iqtree2 -s aligned_sequences.fasta -m TEST
-[?2004lIQ-TREE multicore version 2.0.7 for Linux 64-bit built Apr  1 2024
-Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
-Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
-
-Host:    DESKTOP-M9OBISM (AVX2, FMA3, 3 GB RAM)
-Command: iqtree2 -s aligned_sequences.fasta -m TEST
-Seed:    27902 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Mon Apr  7 13:25:58 2025
-Kernel:  AVX+FMA - 1 threads (4 CPU cores detected)
-
-HINT: Use -nt option to specify number of threads because your CPU has 4 cores!
-HINT: -nt AUTO will automatically determine the best number of threads to use.
 
 Reading alignment file aligned_sequences.fasta ... Fasta format detected
 Alignment most likely contains DNA/RNA sequences
@@ -516,442 +223,18 @@ WARNING: 2 sequences contain more than 50% gaps/ambiguity
 ****  TOTAL        43.29%  4 sequences failed composition chi2 test (p-value<5%; df=3)
 
 
-Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.009 seconds
-Perform fast likelihood tree search using GTR+I+G model...
-Estimate model parameters (epsilon = 5.000)
-Perform nearest neighbor interchange...
-Estimate model parameters (epsilon = 1.000)
-1. Initial log-likelihood: -6959.969
-2. Current log-likelihood: -6957.139
-3. Current log-likelihood: -6953.747
-4. Current log-likelihood: -6951.430
-5. Current log-likelihood: -6950.021
-6. Current log-likelihood: -6948.920
-Optimal log-likelihood: -6947.986
-Rate parameters:  A-C: 1.35702  A-G: 4.56916  A-T: 1.14259  C-G: 0.96154  C-T: 3.78887  G-T: 1.00000
-Base frequencies:  A: 0.193  C: 0.306  G: 0.296  T: 0.205
-Proportion of invariable sites: 0.075
-Gamma shape alpha: 998.729
-Parameters optimization took 6 rounds (0.037 sec)
-Time for fast ML tree search: 0.182 seconds
 
-NOTE: ModelFinder requires 0 MB RAM!
-ModelFinder will test up to 88 DNA models (sample size: 2222) ...
- No. Model         -LnL         df  AIC          AICc         BIC
-  1  GTR+F         6942.092     15  13914.183    13914.401    13999.776
-  2  GTR+F+I       6942.089     16  13916.177    13916.424    14007.476
-  3  GTR+F+G4      6942.265     16  13916.530    13916.777    14007.829
-  4  GTR+F+I+G4    6943.866     17  13921.732    13922.010    14018.737
-  5  SYM           7007.457     12  14038.914    14039.055    14107.388
-  6  SYM+I         7007.474     13  14040.949    14041.114    14115.129
-  7  SYM+G4        7007.610     13  14041.221    14041.385    14115.401
-  9  TVM+F         6943.093     14  13914.185    13914.376    13994.072
- 10  TVM+F+I       6943.087     15  13916.174    13916.391    14001.766
- 11  TVM+F+G4      6943.154     15  13916.309    13916.526    14001.901
- 13  TVMe          7007.698     11  14037.395    14037.515    14100.163
- 14  TVMe+I        7007.695     12  14039.389    14039.531    14107.863
- 15  TVMe+G4       7007.827     12  14039.653    14039.795    14108.127
- 17  TIM3+F        6943.892     13  13913.785    13913.950    13987.965
- 18  TIM3+F+I      6943.891     14  13915.783    13915.973    13995.669
- 19  TIM3+F+G4     6943.977     14  13915.954    13916.145    13995.841
- 21  TIM3e         7007.471     10  14034.942    14035.041    14092.003
- 22  TIM3e+I       7007.473     11  14036.946    14037.066    14099.714
- 23  TIM3e+G4      7007.575     11  14037.150    14037.270    14099.918
- 25  TIM2+F        6942.261     13  13910.522    13910.687    13984.702
- 26  TIM2+F+I      6942.267     14  13912.533    13912.723    13992.419
- 27  TIM2+F+G4     6942.394     14  13912.788    13912.978    13992.674
- 29  TIM2e         7008.766     10  14037.532    14037.631    14094.593
- 30  TIM2e+I       7008.766     11  14039.531    14039.651    14102.299
- 31  TIM2e+G4      7008.846     11  14039.692    14039.812    14102.460
- 33  TIM+F         6943.416     13  13912.831    13912.996    13987.011
- 34  TIM+F+I       6943.429     14  13914.858    13915.048    13994.744
- 35  TIM+F+G4      6943.493     14  13914.987    13915.177    13994.873
- 37  TIMe          7008.778     10  14037.556    14037.656    14094.618
- 38  TIMe+I        7008.768     11  14039.535    14039.655    14102.303
- 39  TIMe+G4       7008.842     11  14039.684    14039.803    14102.452
- 41  TPM3u+F       6944.954     12  13913.908    13914.049    13982.382
- 42  TPM3u+F+I     6944.955     13  13915.910    13916.075    13990.091
- 43  TPM3u+F+G4    6945.018     13  13916.036    13916.201    13990.216
- 45  TPM3+F        6944.952     12  13913.904    13914.045    13982.378
- 46  TPM3+F+I      6944.955     13  13915.911    13916.076    13990.091
- 47  TPM3+F+G4     6945.074     13  13916.148    13916.313    13990.328
- 49  TPM2u+F       6943.258     12  13910.515    13910.657    13978.989
- 50  TPM2u+F+I     6943.261     13  13912.523    13912.688    13986.703
- 51  TPM2u+F+G4    6943.309     13  13912.618    13912.783    13986.798
- 53  TPM2+F        6943.258     12  13910.515    13910.656    13978.989
- 54  TPM2+F+I      6943.261     13  13912.523    13912.688    13986.703
- 55  TPM2+F+G4     6943.309     13  13912.618    13912.783    13986.798
- 57  K3Pu+F        6944.486     12  13912.973    13913.114    13981.447
- 58  K3Pu+F+I      6944.490     13  13914.979    13915.144    13989.159
- 59  K3Pu+F+G4     6944.613     13  13915.225    13915.390    13989.405
- 61  K3P           7008.979     9   14035.958    14036.040    14087.314
- 62  K3P+I         7008.973     10  14037.947    14038.046    14095.008
- 63  K3P+G4        7009.032     10  14038.065    14038.164    14095.127
- 65  TN+F          6943.906     12  13911.811    13911.952    13980.285
- 66  TN+F+I        6943.907     13  13913.814    13913.979    13987.994
- 67  TN+F+G4       6943.986     13  13913.972    13914.136    13988.152
- 69  TNe           7008.774     9   14035.548    14035.629    14086.904
- 70  TNe+I         7008.772     10  14037.543    14037.643    14094.605
- 71  TNe+G4        7008.843     10  14037.687    14037.786    14094.748
- 73  HKY+F         6944.977     11  13911.955    13912.074    13974.723
- 74  HKY+F+I       6944.979     12  13913.957    13914.099    13982.431
- 75  HKY+F+G4      6945.034     12  13914.069    13914.210    13982.543
- 77  K2P           7008.986     8   14033.972    14034.037    14079.621
- 78  K2P+I         7008.979     9   14035.958    14036.039    14087.313
- 79  K2P+G4        7009.041     9   14036.081    14036.163    14087.437
- 81  F81+F         7074.745     10  14169.489    14169.589    14226.551
- 82  F81+F+I       7074.717     11  14171.434    14171.553    14234.202
- 83  F81+F+G4      7074.743     11  14171.486    14171.606    14234.254
- 85  JC            7126.031     7   14266.063    14266.114    14306.006
- 86  JC+I          7126.009     8   14268.018    14268.083    14313.668
- 87  JC+G4         7126.035     8   14268.069    14268.134    14313.719
-Akaike Information Criterion:           TPM2+F
-Corrected Akaike Information Criterion: TPM2+F
-Bayesian Information Criterion:         HKY+F
-Best-fit model: HKY+F chosen according to BIC
 
-All model information printed to aligned_sequences.fasta.model.gz
-CPU time for ModelFinder: 2.035 seconds (0h:0m:2s)
-Wall-clock time for ModelFinder: 1.978 seconds (0h:0m:1s)
 
-NOTE: 0 MB RAM (0 GB) is required!
-Estimate model parameters (epsilon = 0.100)
-1. Initial log-likelihood: -6944.977
-Optimal log-likelihood: -6944.975
-Rate parameters:  A-C: 1.00000  A-G: 3.44718  A-T: 1.00000  C-G: 1.00000  C-T: 3.44718  G-T: 1.00000
-Base frequencies:  A: 0.193  C: 0.306  G: 0.296  T: 0.205
-Parameters optimization took 1 rounds (0.002 sec)
-Computing ML distances based on estimated model parameters... 0.001 sec
-Computing BIONJ tree...
-0.001 seconds
-Log-likelihood of BIONJ tree: -6944.975
---------------------------------------------------------------------
-|             INITIALIZING CANDIDATE TREE SET                      |
---------------------------------------------------------------------
-Generating 99 parsimony trees... 0.047 second
-Computing log-likelihood of 4 initial trees ... 0.003 seconds
-Current best score: -6944.975
-
-Do NNI search on 5 best initial trees
 Finish initializing candidate tree set (5)
 Current best tree score: -6944.975 / CPU time: 0.062
 Number of iterations: 5
 --------------------------------------------------------------------
 |               OPTIMIZING CANDIDATE TREE SET                      |
---------------------------------------------------------------------
-UPDATE BEST LOG-LIKELIHOOD: -6944.975
-Iteration 10 / LogL: -6958.224 / Time: 0h:0m:0s
-UPDATE BEST LOG-LIKELIHOOD: -6944.975
-Iteration 20 / LogL: -6949.447 / Time: 0h:0m:0s
-UPDATE BEST LOG-LIKELIHOOD: -6944.975
-Iteration 30 / LogL: -6951.617 / Time: 0h:0m:0s (0h:0m:0s left)
-UPDATE BEST LOG-LIKELIHOOD: -6944.975
-Iteration 40 / LogL: -6944.975 / Time: 0h:0m:0s (0h:0m:0s left)
-Iteration 50 / LogL: -6958.224 / Time: 0h:0m:0s (0h:0m:0s left)
-Iteration 60 / LogL: -6949.424 / Time: 0h:0m:0s (0h:0m:0s left)
-UPDATE BEST LOG-LIKELIHOOD: -6944.975
-Iteration 70 / LogL: -6949.723 / Time: 0h:0m:0s (0h:0m:0s left)
-UPDATE BEST LOG-LIKELIHOOD: -6944.975
-Iteration 80 / LogL: -6944.975 / Time: 0h:0m:0s (0h:0m:0s left)
-UPDATE BEST LOG-LIKELIHOOD: -6944.975
-Iteration 90 / LogL: -6949.329 / Time: 0h:0m:0s (0h:0m:0s left)
-Iteration 100 / LogL: -6953.530 / Time: 0h:0m:0s (0h:0m:0s left)
-TREE SEARCH COMPLETED AFTER 101 ITERATIONS / Time: 0h:0m:0s
+
 
 --------------------------------------------------------------------
 |                    FINALIZING TREE SEARCH                        |
 --------------------------------------------------------------------
-Performs final model parameters optimization
-Estimate model parameters (epsilon = 0.010)
-1. Initial log-likelihood: -6944.975
-Optimal log-likelihood: -6944.975
-Rate parameters:  A-C: 1.00000  A-G: 3.45113  A-T: 1.00000  C-G: 1.00000  C-T: 3.45113  G-T: 1.00000
-Base frequencies:  A: 0.193  C: 0.306  G: 0.296  T: 0.205
-Parameters optimization took 1 rounds (0.001 sec)
-BEST SCORE FOUND : -6944.975
-Total tree length: 2.152
+ figtree RAxML_bestTree.phylo_tree
 
-Total number of iterations: 101
-CPU time used for tree search: 0.331 sec (0h:0m:0s)
-Wall-clock time used for tree search: 0.364 sec (0h:0m:0s)
-Total CPU time used: 0.351 sec (0h:0m:0s)
-Total wall-clock time used: 0.384 sec (0h:0m:0s)
-
-Analysis results written to: 
-  IQ-TREE report:                aligned_sequences.fasta.iqtree
-  Maximum-likelihood tree:       aligned_sequences.fasta.treefile
-  Likelihood distances:          aligned_sequences.fasta.mldist
-  Screen log file:               aligned_sequences.fasta.log
-
-Date and Time: Mon Apr  7 13:26:00 2025
-[?2004h]0;dmin@DESKTOP-M9OBISM: ~[01;32mdmin@DESKTOP-M9OBISM[00m:[01;34m~[00m$ raxmlHPPC[K[KC -s aligned_sequences.fasta -n phylo_tree -m GTRGAMMA -p 12345-#100
-[?2004lUse raxml with AVX support (2 cpus)
-
-RAxML can't, parse the alignment file as phylip file 
-it will now try to parse it as FASTA file
-
-
-
-Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
-
-
-This is the RAxML Master Pthread
-
-This is RAxML Worker Pthread Number: 1
-
-
-This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
-
-With greatly appreciated code contributions by:
-Andre Aberer      (HITS)
-Simon Berger      (HITS)
-Alexey Kozlov     (HITS)
-Kassian Kobert    (HITS)
-David Dao         (KIT and HITS)
-Sarah Lutteropp   (KIT and HITS)
-Nick Pattengale   (Sandia)
-Wayne Pfeiffer    (SDSC)
-Akifumi S. Tanabe (NRIFS)
-Charlie Taylor    (UF)
-
-
-Alignment has 500 distinct alignment patterns
-
-Proportion of gaps and completely undetermined characters in this alignment: 43.29%
-
-RAxML rapid hill-climbing mode
-
-Using 1 distinct models/data partitions with joint branch length optimization
-
-
-Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
-
-All free model parameters will be estimated by RAxML
-GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
-
-GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
-
-Partition: 0
-Alignment Patterns: 500
-Name: No Name Provided
-DataType: DNA
-Substitution Matrix: GTR
-
-
-
-
-RAxML was called as follows:
-
-/usr/bin/raxmlHPC-PTHREADS-AVX -T 2 -s aligned_sequences.fasta -n phylo_tree -m GTRGAMMA -p 12345-#100 
-
-
-Partition: 0 with name: No Name Provided
-Base frequencies: 0.193 0.306 0.296 0.205 
-
-Inference[0]: Time 0.122617 GAMMA-based likelihood -6944.025381, best rearrangement setting 2
-
-
-Conducting final model optimizations on all 1 trees under GAMMA-based models ....
-
-
-WARNING the alpha parameter with a value of 10.140147 estimated by RAxML for partition number 0 with the name "No Name Provided"
-is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
-You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
-
-
-WARNING the alpha parameter with a value of 13.907378 estimated by RAxML for partition number 0 with the name "No Name Provided"
-is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
-You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
-
-
-WARNING the alpha parameter with a value of 19.157972 estimated by RAxML for partition number 0 with the name "No Name Provided"
-is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
-You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
-
-
-WARNING the alpha parameter with a value of 26.790559 estimated by RAxML for partition number 0 with the name "No Name Provided"
-is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
-You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
-
-Inference[0] final GAMMA-based Likelihood: -6942.205358 tree written to file /home/dmin/RAxML_result.phylo_tree
-
-
-Starting final GAMMA-based thorough Optimization on tree 0 likelihood -6942.205358 .... 
-
-Final GAMMA-based Score of best tree -6942.205358
-
-Program execution info written to /home/dmin/RAxML_info.phylo_tree
-Best-scoring ML tree written to: /home/dmin/RAxML_bestTree.phylo_tree
-
-Overall execution time: 0.189824 secs or 0.000053 hours or 0.000002 days
-
-[?2004h]0;dmin@DESKTOP-M9OBISM: ~[01;32mdmin@DESKTOP-M9OBISM[00m:[01;34m~[00m$ figtree RAxML_bestTree.phylo_tree
-[?2004lCommand 'figtree' not found, but can be installed with:
-sudo apt install figtree
-[?2004h]0;dmin@DESKTOP-M9OBISM: ~[01;32mdmin@DESKTOP-M9OBISM[00m:[01;34m~[00m$ sudo apt install figtree
-[?2004lReading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
-Reading state information... 0% Reading state information... 0%Reading state information... Done
-The following additional packages will be installed:
-  default-jdk default-jdk-headless java-wrappers libactivation-java libbatik-java libice-dev libitext5-java libjam-java libjaxp1.3-java libjebl2-java libpthread-stubs0-dev libsm-dev libx11-dev libxau-dev
-  libxcb1-dev libxdmcp-dev libxml-commons-external-java libxmlgraphics-commons-java libxt-dev openjdk-21-jdk openjdk-21-jdk-headless x11proto-dev xorg-sgml-doctools xtrans-dev
-Suggested packages:
-  libice-doc libbcpkix-java libbcprov-java libxml-security-java libsm-doc libx11-doc libxcb-doc libxmlgraphics-commons-java-doc libxt-doc openjdk-21-demo openjdk-21-source visualvm
-The following NEW packages will be installed:
-  default-jdk default-jdk-headless figtree java-wrappers libactivation-java libbatik-java libice-dev libitext5-java libjam-java libjaxp1.3-java libjebl2-java libpthread-stubs0-dev libsm-dev libx11-dev libxau-dev
-  libxcb1-dev libxdmcp-dev libxml-commons-external-java libxmlgraphics-commons-java libxt-dev openjdk-21-jdk openjdk-21-jdk-headless x11proto-dev xorg-sgml-doctools xtrans-dev
-0 upgraded, 25 newly installed, 0 to remove and 91 not upgraded.
-Need to get 95.6 MB of archives.
-After this operation, 122 MB of additional disk space will be used.
-Do you want to continue? [Y/n] Y
-[33m0% [Working][0m[33m0% [Working][0m[33m0% [Connecting to archive.ubuntu.com (91.189.91.81)][0m                                                    Get:1 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 openjdk-21-jdk-headless amd64 21.0.6+7-1~24.04.1 [82.6 MB]
-[33m                                                    0% [1 openjdk-21-jdk-headless 11.1 kB/82.6 MB 0%][0m[33m0% [1 openjdk-21-jdk-headless 48.0 kB/82.6 MB 0%][0m[33m                                                 0% [1 openjdk-21-jdk-headless 186 kB/82.6 MB 0%][0m[33m1% [1 openjdk-21-jdk-headless 676 kB/82.6 MB 1%][0m[33m2% [1 openjdk-21-jdk-headless 2485 kB/82.6 MB 3%][0m[33m5% [1 openjdk-21-jdk-headless 5489 kB/82.6 MB 7%][0m[33m7% [1 openjdk-21-jdk-headless 8748 kB/82.6 MB 11%][0m[33m10% [1 openjdk-21-jdk-headless 11.5 MB/82.6 MB 14%][0m[33m12% [1 openjdk-21-jdk-headless 14.6 MB/82.6 MB 18%][0m[33m13% [1 openjdk-21-jdk-headless 15.2 MB/82.6 MB 18%][0m[33m16% [1 openjdk-21-jdk-headless 19.1 MB/82.6 MB 23%]                                                                                                                                                    2954 kB/s 25s[0m[33m18% [1 openjdk-21-jdk-headless 22.1 MB/82.6 MB 27%]                                                                                                                                                    2954 kB/s 24s[0m[33m21% [1 openjdk-21-jdk-headless 25.1 MB/82.6 MB 30%]                                                                                                                                                    2954 kB/s 23s[0m[33m24% [1 openjdk-21-jdk-headless 28.3 MB/82.6 MB 34%]                                                                                                                                                    2954 kB/s 22s[0m[33m26% [1 openjdk-21-jdk-headless 31.4 MB/82.6 MB 38%]                                                                                                                                                    2954 kB/s 21s[0m[33m29% [1 openjdk-21-jdk-headless 34.3 MB/82.6 MB 41%]                                                                                                                                                    2954 kB/s 20s[0m[33m31% [1 openjdk-21-jdk-headless 37.2 MB/82.6 MB 45%]                                                                                                                                                    2954 kB/s 19s[0m[33m34% [1 openjdk-21-jdk-headless 40.3 MB/82.6 MB 49%]                                                                                                                                                    2954 kB/s 18s[0m[33m37% [1 openjdk-21-jdk-headless 43.7 MB/82.6 MB 53%]                                                                                                                                                    2954 kB/s 17s[0m[33m39% [1 openjdk-21-jdk-headless 46.7 MB/82.6 MB 56%]                                                                                                                                                    2954 kB/s 16s[0m[33m41% [1 openjdk-21-jdk-headless 49.5 MB/82.6 MB 60%]                                                                                                                                                    2954 kB/s 15s[0m[33m44% [1 openjdk-21-jdk-headless 52.5 MB/82.6 MB 64%]                                                                                                                                                    2954 kB/s 14s[0m[33m47% [1 openjdk-21-jdk-headless 55.7 MB/82.6 MB 67%]                                                                                                                                                     6088 kB/s 6s[0m[33m49% [1 openjdk-21-jdk-headless 58.5 MB/82.6 MB 71%]                                                                                                                                                     6088 kB/s 6s[0m[33m51% [1 openjdk-21-jdk-headless 60.9 MB/82.6 MB 74%]                                                                                                                                                     6088 kB/s 5s[0m[33m51% [1 openjdk-21-jdk-headless 61.5 MB/82.6 MB 74%]                                                                                                                                                     6088 kB/s 5s[0m[33m54% [1 openjdk-21-jdk-headless 64.7 MB/82.6 MB 78%]                                                                                                                                                     6088 kB/s 5s[0m[33m56% [1 openjdk-21-jdk-headless 67.0 MB/82.6 MB 81%]                                                                                                                                                     6088 kB/s 4s[0m[33m59% [1 openjdk-21-jdk-headless 70.3 MB/82.6 MB 85%]                                                                                                                                                     6088 kB/s 4s[0m[33m61% [1 openjdk-21-jdk-headless 73.3 MB/82.6 MB 89%]                                                                                                                                                     6088 kB/s 3s[0m[33m64% [1 openjdk-21-jdk-headless 76.4 MB/82.6 MB 93%]                                                                                                                                                     6088 kB/s 3s[0m[33m66% [1 openjdk-21-jdk-headless 79.4 MB/82.6 MB 96%]                                                                                                                                                     6088 kB/s 2s[0m[33m69% [1 openjdk-21-jdk-headless 82.5 MB/82.6 MB 100%]                                                                                                                                                    6088 kB/s 2s[0m[33m70% [Working]                                                                                                                                                                                           6088 kB/s 2s[0m                                                                                                                                                                                                                    Get:2 http://archive.ubuntu.com/ubuntu noble/main amd64 default-jdk-headless amd64 2:1.21-75+exp1 [960 B]
-[33m70% [2 default-jdk-headless 960 B/960 B 100%]                                                                                                                                                           6088 kB/s 2s[0m[33m71% [Waiting for headers]                                                                                                                                                                               6088 kB/s 2s[0m                                                                                                                                                                                                                    Get:3 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 openjdk-21-jdk amd64 21.0.6+7-1~24.04.1 [1648 kB]
-[33m71% [3 openjdk-21-jdk 12.3 kB/1648 kB 1%]                                                                                                                                                               6088 kB/s 2s[0m[33m73% [Working]                                                                                                                                                                                           6088 kB/s 1s[0m                                                                                                                                                                                                                    Get:4 http://archive.ubuntu.com/ubuntu noble/main amd64 default-jdk amd64 2:1.21-75+exp1 [926 B]
-[33m74% [Working]                                                                                                                                                                                           6088 kB/s 1s[0m                                                                                                                                                                                                                    Get:5 http://archive.ubuntu.com/ubuntu noble/universe amd64 libactivation-java all 1.2.0-2 [84.7 kB]
-[33m74% [5 libactivation-java 12.5 kB/84.7 kB 15%]                                                                                                                                                          6088 kB/s 1s[0m[33m75% [Waiting for headers]                                                                                                                                                                               6088 kB/s 1s[0m                                                                                                                                                                                                                    Get:6 http://archive.ubuntu.com/ubuntu noble/universe amd64 java-wrappers all 0.4 [8662 B]
-[33m75% [6 java-wrappers 8662 B/8662 B 100%]                                                                                                                                                                6088 kB/s 1s[0m[33m75% [Working]                                                                                                                                                                                           6088 kB/s 1s[0m                                                                                                                                                                                                                    Get:7 http://archive.ubuntu.com/ubuntu noble/universe amd64 libjaxp1.3-java all 1.3.05-6 [227 kB]
-[33m75% [7 libjaxp1.3-java 4096 B/227 kB 2%]                                                                                                                                                                6088 kB/s 1s[0m[33m76% [Waiting for headers]                                                                                                                                                                               6088 kB/s 1s[0m                                                                                                                                                                                                                    Get:8 http://archive.ubuntu.com/ubuntu noble/universe amd64 libxml-commons-external-java all 1.4.01-6 [240 kB]
-[33m76% [8 libxml-commons-external-java 7660 B/240 kB 3%]                                                                                                                                                   6088 kB/s 1s[0m[33m77% [Waiting for headers]                                                                                                                                                                               6088 kB/s 1s[0m                                                                                                                                                                                                                    Get:9 http://archive.ubuntu.com/ubuntu noble/universe amd64 libxmlgraphics-commons-java all 2.8-2 [619 kB]
-[33m77% [9 libxmlgraphics-commons-java 10.4 kB/619 kB 2%]                                                                                                                                                   6088 kB/s 1s[0m[33m79% [Waiting for headers]                                                                                                                                                                               6088 kB/s 1s[0m                                                                                                                                                                                                                    Get:10 http://archive.ubuntu.com/ubuntu noble/universe amd64 libbatik-java all 1.17+dfsg-1 [3877 kB]
-[33m79% [10 libbatik-java 3966 B/3877 kB 0%]                                                                                                                                                                6088 kB/s 1s[0m[33m81% [10 libbatik-java 3171 kB/3877 kB 82%]                                                                                                                                                              5290 kB/s 1s[0m[33m83% [Waiting for headers]                                                                                                                                                                               5290 kB/s 1s[0m                                                                                                                                                                                                                    Get:11 http://archive.ubuntu.com/ubuntu noble/universe amd64 libitext5-java all 5.5.13.3-4 [2691 kB]
-[33m83% [11 libitext5-java 18.3 kB/2691 kB 1%]                                                                                                                                                              5290 kB/s 1s[0m                                                                                                                                                                                                                    Get:12 http://archive.ubuntu.com/ubuntu noble/universe amd64 libjam-java all 0.1.git20180106.740247a+dfsg-1 [164 kB]
-[33m86% [12 libjam-java 11.9 kB/164 kB 7%]                                                                                                                                                                  5290 kB/s 0s[0m[33m87% [Waiting for headers]                                                                                                                                                                               5290 kB/s 0s[0m                                                                                                                                                                                                                    Get:13 http://archive.ubuntu.com/ubuntu noble/universe amd64 libjebl2-java all 0.1+git20230701.b3c0f25-1 [527 kB]
-[33m87% [13 libjebl2-java 2772 B/527 kB 1%]                                                                                                                                                                 5290 kB/s 0s[0m[33m88% [Waiting for headers]                                                                                                                                                                               5290 kB/s 0s[0m                                                                                                                                                                                                                    Get:14 http://archive.ubuntu.com/ubuntu noble/universe amd64 figtree all 1.4.4-6 [897 kB]
-[33m88% [14 figtree 10.7 kB/897 kB 1%]                                                                                                                                                                      5290 kB/s 0s[0m[33m90% [Waiting for headers]                                                                                                                                                                               5290 kB/s 0s[0m                                                                                                                                                                                                                    Get:15 http://archive.ubuntu.com/ubuntu noble/main amd64 xorg-sgml-doctools all 1:1.11-1.1 [10.9 kB]
-[33m90% [Waiting for headers]                                                                                                                                                                               5290 kB/s 0s[0m                                                                                                                                                                                                                    Get:16 http://archive.ubuntu.com/ubuntu noble/main amd64 x11proto-dev all 2023.2-1 [602 kB]
-[33m90% [16 x11proto-dev 12.3 kB/602 kB 2%]                                                                                                                                                                 5290 kB/s 0s[0m[33m92% [Waiting for headers]                                                                                                                                                                               5290 kB/s 0s[0m                                                                                                                                                                                                                    Get:17 http://archive.ubuntu.com/ubuntu noble/main amd64 libice-dev amd64 2:1.0.10-1build3 [51.0 kB]
-[33m92% [17 libice-dev 18.8 kB/51.0 kB 37%]                                                                                                                                                                 5290 kB/s 0s[0m[33m92% [Waiting for headers]                                                                                                                                                                               5290 kB/s 0s[0m                                                                                                                                                                                                                    Get:18 http://archive.ubuntu.com/ubuntu noble/main amd64 libpthread-stubs0-dev amd64 0.4-1build3 [4746 B]
-[33m92% [18 libpthread-stubs0-dev 4746 B/4746 B 100%]                                                                                                                                                       5290 kB/s 0s[0m[33m93% [Working]                                                                                                                                                                                           5290 kB/s 0s[0m                                                                                                                                                                                                                    Get:19 http://archive.ubuntu.com/ubuntu noble/main amd64 libsm-dev amd64 2:1.2.3-1build3 [17.8 kB]
-[33m93% [19 libsm-dev 12.0 kB/17.8 kB 67%]                                                                                                                                                                  5290 kB/s 0s[0m[33m94% [Waiting for headers]                                                                                                                                                                               5290 kB/s 0s[0m                                                                                                                                                                                                                    Get:20 http://archive.ubuntu.com/ubuntu noble/main amd64 libxau-dev amd64 1:1.0.9-1build6 [9570 B]
-[33m94% [20 libxau-dev 9570 B/9570 B 100%]                                                                                                                                                                  5290 kB/s 0s[0m[33m95% [Working]                                                                                                                                                                                           5290 kB/s 0s[0m                                                                                                                                                                                                                    Get:21 http://archive.ubuntu.com/ubuntu noble/main amd64 libxdmcp-dev amd64 1:1.1.3-0ubuntu6 [26.5 kB]
-[33m95% [21 libxdmcp-dev 12.5 kB/26.5 kB 47%]                                                                                                                                                               5290 kB/s 0s[0m[33m96% [Working]                                                                                                                                                                                           5290 kB/s 0s[0m                                                                                                                                                                                                                    Get:22 http://archive.ubuntu.com/ubuntu noble/main amd64 xtrans-dev all 1.4.0-1 [68.9 kB]
-[33m96% [22 xtrans-dev 5533 B/68.9 kB 8%]                                                                                                                                                                   5290 kB/s 0s[0m[33m97% [Waiting for headers]                                                                                                                                                                               5290 kB/s 0s[0m                                                                                                                                                                                                                    Get:23 http://archive.ubuntu.com/ubuntu noble/main amd64 libxcb1-dev amd64 1.15-1ubuntu2 [85.8 kB]
-[33m97% [23 libxcb1-dev 24.6 kB/85.8 kB 29%]                                                                                                                                                                5290 kB/s 0s[0m[33m97% [Waiting for headers]                                                                                                                                                                               5290 kB/s 0s[0m                                                                                                                                                                                                                    Get:24 http://archive.ubuntu.com/ubuntu noble/main amd64 libx11-dev amd64 2:1.8.7-1build1 [732 kB]
-[33m97% [24 libx11-dev 0 B/732 kB 0%]                                                                                                                                                                       5290 kB/s 0s[0m[33m99% [Waiting for headers]                                                                                                                                                                               5290 kB/s 0s[0m                                                                                                                                                                                                                    Get:25 http://archive.ubuntu.com/ubuntu noble/main amd64 libxt-dev amd64 1:1.2.1-1.2build1 [394 kB]
-[33m99% [25 libxt-dev 11.6 kB/394 kB 3%]                                                                                                                                                                    5290 kB/s 0s[0m[33m100% [Working]                                                                                                                                                                                          5290 kB/s 0s[0m                                                                                                                                                                                                                    Fetched 95.6 MB in 20s (4747 kB/s)
-
-7[0;49r8[1ASelecting previously unselected package openjdk-21-jdk-headless:amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 78838 files and directories currently installed.)
-Preparing to unpack .../00-openjdk-21-jdk-headless_21.0.6+7-1~24.04.1_amd64.deb ...
-7[50;0f[42m[30mProgress: [  0%][49m[39m [...............................................................................................................................................................................................] 8Unpacking openjdk-21-jdk-headless:amd64 (21.0.6+7-1~24.04.1) ...
-7[50;0f[42m[30mProgress: [  2%][49m[39m [###............................................................................................................................................................................................] 8Selecting previously unselected package default-jdk-headless.
-Preparing to unpack .../01-default-jdk-headless_2%3a1.21-75+exp1_amd64.deb ...
-7[50;0f[42m[30mProgress: [  3%][49m[39m [#####..........................................................................................................................................................................................] 8Unpacking default-jdk-headless (2:1.21-75+exp1) ...
-7[50;0f[42m[30mProgress: [  4%][49m[39m [#######........................................................................................................................................................................................] 8Selecting previously unselected package openjdk-21-jdk:amd64.
-Preparing to unpack .../02-openjdk-21-jdk_21.0.6+7-1~24.04.1_amd64.deb ...
-7[50;0f[42m[30mProgress: [  5%][49m[39m [#########......................................................................................................................................................................................] 8Unpacking openjdk-21-jdk:amd64 (21.0.6+7-1~24.04.1) ...
-7[50;0f[42m[30mProgress: [  6%][49m[39m [###########....................................................................................................................................................................................] 8Selecting previously unselected package default-jdk.
-Preparing to unpack .../03-default-jdk_2%3a1.21-75+exp1_amd64.deb ...
-7[50;0f[42m[30mProgress: [  7%][49m[39m [#############..................................................................................................................................................................................] 8Unpacking default-jdk (2:1.21-75+exp1) ...
-7[50;0f[42m[30mProgress: [  8%][49m[39m [###############................................................................................................................................................................................] 8Selecting previously unselected package libactivation-java.
-Preparing to unpack .../04-libactivation-java_1.2.0-2_all.deb ...
-7[50;0f[42m[30mProgress: [  9%][49m[39m [#################..............................................................................................................................................................................] 8Unpacking libactivation-java (1.2.0-2) ...
-7[50;0f[42m[30mProgress: [ 10%][49m[39m [##################.............................................................................................................................................................................] 8Selecting previously unselected package java-wrappers.
-Preparing to unpack .../05-java-wrappers_0.4_all.deb ...
-7[50;0f[42m[30mProgress: [ 11%][49m[39m [####################...........................................................................................................................................................................] 8Unpacking java-wrappers (0.4) ...
-7[50;0f[42m[30mProgress: [ 12%][49m[39m [######################.........................................................................................................................................................................] 8Selecting previously unselected package libjaxp1.3-java.
-Preparing to unpack .../06-libjaxp1.3-java_1.3.05-6_all.deb ...
-7[50;0f[42m[30mProgress: [ 13%][49m[39m [########################.......................................................................................................................................................................] 8Unpacking libjaxp1.3-java (1.3.05-6) ...
-7[50;0f[42m[30mProgress: [ 14%][49m[39m [##########################.....................................................................................................................................................................] 8Selecting previously unselected package libxml-commons-external-java.
-Preparing to unpack .../07-libxml-commons-external-java_1.4.01-6_all.deb ...
-7[50;0f[42m[30mProgress: [ 15%][49m[39m [############################...................................................................................................................................................................] 8Unpacking libxml-commons-external-java (1.4.01-6) ...
-7[50;0f[42m[30mProgress: [ 16%][49m[39m [##############################.................................................................................................................................................................] 8Selecting previously unselected package libxmlgraphics-commons-java.
-Preparing to unpack .../08-libxmlgraphics-commons-java_2.8-2_all.deb ...
-7[50;0f[42m[30mProgress: [ 17%][49m[39m [################################...............................................................................................................................................................] 8Unpacking libxmlgraphics-commons-java (2.8-2) ...
-7[50;0f[42m[30mProgress: [ 18%][49m[39m [##################################.............................................................................................................................................................] 8Selecting previously unselected package libbatik-java.
-Preparing to unpack .../09-libbatik-java_1.17+dfsg-1_all.deb ...
-7[50;0f[42m[30mProgress: [ 19%][49m[39m [###################################............................................................................................................................................................] 8Unpacking libbatik-java (1.17+dfsg-1) ...
-7[50;0f[42m[30mProgress: [ 20%][49m[39m [#####################################..........................................................................................................................................................] 8Selecting previously unselected package libitext5-java.
-Preparing to unpack .../10-libitext5-java_5.5.13.3-4_all.deb ...
-7[50;0f[42m[30mProgress: [ 21%][49m[39m [#######################################........................................................................................................................................................] 8Unpacking libitext5-java (5.5.13.3-4) ...
-7[50;0f[42m[30mProgress: [ 22%][49m[39m [#########################################......................................................................................................................................................] 8Selecting previously unselected package libjam-java.
-Preparing to unpack .../11-libjam-java_0.1.git20180106.740247a+dfsg-1_all.deb ...
-7[50;0f[42m[30mProgress: [ 23%][49m[39m [###########################################....................................................................................................................................................] 8Unpacking libjam-java (0.1.git20180106.740247a+dfsg-1) ...
-7[50;0f[42m[30mProgress: [ 24%][49m[39m [#############################################..................................................................................................................................................] 8Selecting previously unselected package libjebl2-java.
-Preparing to unpack .../12-libjebl2-java_0.1+git20230701.b3c0f25-1_all.deb ...
-7[50;0f[42m[30mProgress: [ 25%][49m[39m [###############################################................................................................................................................................................] 8Unpacking libjebl2-java (0.1+git20230701.b3c0f25-1) ...
-7[50;0f[42m[30mProgress: [ 26%][49m[39m [#################################################..............................................................................................................................................] 8Selecting previously unselected package figtree.
-Preparing to unpack .../13-figtree_1.4.4-6_all.deb ...
-7[50;0f[42m[30mProgress: [ 27%][49m[39m [###################################################............................................................................................................................................] 8Unpacking figtree (1.4.4-6) ...
-7[50;0f[42m[30mProgress: [ 28%][49m[39m [####################################################...........................................................................................................................................] 8Selecting previously unselected package xorg-sgml-doctools.
-Preparing to unpack .../14-xorg-sgml-doctools_1%3a1.11-1.1_all.deb ...
-7[50;0f[42m[30mProgress: [ 29%][49m[39m [######################################################.........................................................................................................................................] 8Unpacking xorg-sgml-doctools (1:1.11-1.1) ...
-7[50;0f[42m[30mProgress: [ 30%][49m[39m [########################################################.......................................................................................................................................] 8Selecting previously unselected package x11proto-dev.
-Preparing to unpack .../15-x11proto-dev_2023.2-1_all.deb ...
-7[50;0f[42m[30mProgress: [ 31%][49m[39m [##########################################################.....................................................................................................................................] 8Unpacking x11proto-dev (2023.2-1) ...
-7[50;0f[42m[30mProgress: [ 32%][49m[39m [############################################################...................................................................................................................................] 8Selecting previously unselected package libice-dev:amd64.
-Preparing to unpack .../16-libice-dev_2%3a1.0.10-1build3_amd64.deb ...
-7[50;0f[42m[30mProgress: [ 33%][49m[39m [##############################################################.................................................................................................................................] 8Unpacking libice-dev:amd64 (2:1.0.10-1build3) ...
-7[50;0f[42m[30mProgress: [ 34%][49m[39m [################################################################...............................................................................................................................] 8Selecting previously unselected package libpthread-stubs0-dev:amd64.
-Preparing to unpack .../17-libpthread-stubs0-dev_0.4-1build3_amd64.deb ...
-7[50;0f[42m[30mProgress: [ 35%][49m[39m [##################################################################.............................................................................................................................] 8Unpacking libpthread-stubs0-dev:amd64 (0.4-1build3) ...
-7[50;0f[42m[30mProgress: [ 36%][49m[39m [####################################################################...........................................................................................................................] 8Selecting previously unselected package libsm-dev:amd64.
-Preparing to unpack .../18-libsm-dev_2%3a1.2.3-1build3_amd64.deb ...
-7[50;0f[42m[30mProgress: [ 37%][49m[39m [#####################################################################..........................................................................................................................] 8Unpacking libsm-dev:amd64 (2:1.2.3-1build3) ...
-7[50;0f[42m[30mProgress: [ 38%][49m[39m [#######################################################################........................................................................................................................] 8Selecting previously unselected package libxau-dev:amd64.
-Preparing to unpack .../19-libxau-dev_1%3a1.0.9-1build6_amd64.deb ...
-7[50;0f[42m[30mProgress: [ 39%][49m[39m [#########################################################################......................................................................................................................] 8Unpacking libxau-dev:amd64 (1:1.0.9-1build6) ...
-7[50;0f[42m[30mProgress: [ 40%][49m[39m [###########################################################################....................................................................................................................] 8Selecting previously unselected package libxdmcp-dev:amd64.
-Preparing to unpack .../20-libxdmcp-dev_1%3a1.1.3-0ubuntu6_amd64.deb ...
-7[50;0f[42m[30mProgress: [ 41%][49m[39m [#############################################################################..................................................................................................................] 8Unpacking libxdmcp-dev:amd64 (1:1.1.3-0ubuntu6) ...
-7[50;0f[42m[30mProgress: [ 42%][49m[39m [###############################################################################................................................................................................................] 8Selecting previously unselected package xtrans-dev.
-Preparing to unpack .../21-xtrans-dev_1.4.0-1_all.deb ...
-7[50;0f[42m[30mProgress: [ 43%][49m[39m [#################################################################################..............................................................................................................] 8Unpacking xtrans-dev (1.4.0-1) ...
-7[50;0f[42m[30mProgress: [ 44%][49m[39m [###################################################################################............................................................................................................] 8Selecting previously unselected package libxcb1-dev:amd64.
-Preparing to unpack .../22-libxcb1-dev_1.15-1ubuntu2_amd64.deb ...
-7[50;0f[42m[30mProgress: [ 45%][49m[39m [#####################################################################################..........................................................................................................] 8Unpacking libxcb1-dev:amd64 (1.15-1ubuntu2) ...
-7[50;0f[42m[30mProgress: [ 46%][49m[39m [######################################################################################.........................................................................................................] 8Selecting previously unselected package libx11-dev:amd64.
-Preparing to unpack .../23-libx11-dev_2%3a1.8.7-1build1_amd64.deb ...
-7[50;0f[42m[30mProgress: [ 47%][49m[39m [########################################################################################.......................................................................................................] 8Unpacking libx11-dev:amd64 (2:1.8.7-1build1) ...
-7[50;0f[42m[30mProgress: [ 48%][49m[39m [##########################################################################################.....................................................................................................] 8Selecting previously unselected package libxt-dev:amd64.
-Preparing to unpack .../24-libxt-dev_1%3a1.2.1-1.2build1_amd64.deb ...
-7[50;0f[42m[30mProgress: [ 49%][49m[39m [############################################################################################...................................................................................................] 8Unpacking libxt-dev:amd64 (1:1.2.1-1.2build1) ...
-7[50;0f[42m[30mProgress: [ 50%][49m[39m [##############################################################################################.................................................................................................] 8Setting up libjebl2-java (0.1+git20230701.b3c0f25-1) ...
-7[50;0f[42m[30mProgress: [ 50%][49m[39m [################################################################################################...............................................................................................] 87[50;0f[42m[30mProgress: [ 51%][49m[39m [##################################################################################################.............................................................................................] 8Setting up openjdk-21-jdk-headless:amd64 (21.0.6+7-1~24.04.1) ...
-7[50;0f[42m[30mProgress: [ 52%][49m[39m [####################################################################################################...........................................................................................] 8update-alternatives: using /usr/lib/jvm/java-21-openjdk-amd64/bin/jar to provide /usr/bin/jar (jar) in auto mode
-update-alternatives: using /usr/lib/jvm/java-21-openjdk-amd64/bin/jarsigner to provide /usr/bin/jarsigner (jarsigner) in auto mode
-update-alternatives: using /usr/lib/jvm/java-21-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
-update-alternatives: using /usr/lib/jvm/java-21-openjdk-amd64/bin/javadoc to provide /usr/bin/javadoc (javadoc) in auto mode
-update-alternatives: using /usr/lib/jvm/java-21-openjdk-amd64/bin/javap to provide /usr/bin/javap (javap) in auto mode
-update-alternatives: using /usr/lib/jvm/java-21-openjdk-amd64/bin/jcmd to provide /usr/bin/jcmd (jcmd) in auto mode
-update-alternatives: using /usr/lib/jvm/java-21-openjdk-amd64/bin/jdb to provide /usr/bin/jdb (jdb) in auto mode
-update-alternatives: using /usr/lib/jvm/java-21-openjdk-amd64/bin/jdeprscan to provide /usr/bin/jdeprscan (jdeprscan) in auto mode
-update-alternatives: using /usr/lib/jvm/java-21-openjdk-amd64/bin/jdeps to provide /usr/bin/jdeps (jdeps) in auto mode
-update-alternatives: using /usr/lib/jvm/java-21-openjdk-amd64/bin/jfr to provide /usr/bin/jfr (jfr) in auto mode
-update-alternatives: using /usr/lib/jvm/java-21-openjdk-amd64/bin/jimage to provide /usr/bin/jimage (jimage) in auto mode
-update-alternatives: using /usr/lib/jvm/java-21-openjdk-amd64/bin/jinfo to provide /usr/bin/jinfo (jinfo) in auto mode
-update-alternatives: using /usr/lib/jvm/java-21-openjdk-amd64/bin/jlink to provide /usr/bin/jlink (jlink) in auto mode
-update-alternatives: using /usr/lib/jvm/java-21-openjdk-amd64/bin/jmap to provide /usr/bin/jmap (jmap) in auto mode
-update-alternatives: using /usr/lib/jvm/java-21-openjdk-amd64/bin/jmod to provide /usr/bin/jmod (jmod) in auto mode
-update-alternatives: using /usr/lib/jvm/java-21-openjdk-amd64/bin/jps to provide /usr/bin/jps (jps) in auto mode
-update-alternatives: using /usr/lib/jvm/java-21-openjdk-amd64/bin/jrunscript to provide /usr/bin/jrunscript (jrunscript) in auto mode
-update-alternatives: using /usr/lib/jvm/java-21-openjdk-amd64/bin/jshell to provide /usr/bin/jshell (jshell) in auto mode
-update-alternatives: using /usr/lib/jvm/java-21-openjdk-amd64/bin/jstack to provide /usr/bin/jstack (jstack) in auto mode
-update-alternatives: using /usr/lib/jvm/java-21-openjdk-amd64/bin/jstat to provide /usr/bin/jstat (jstat) in auto mode
-update-alternatives: using /usr/lib/jvm/java-21-openjdk-amd64/bin/jstatd to provide /usr/bin/jstatd (jstatd) in auto mode
-update-alternatives: using /usr/lib/jvm/java-21-openjdk-amd64/bin/jwebserver to provide /usr/bin/jwebserver (jwebserver) in auto mode
-update-alternatives: using /usr/lib/jvm/java-21-openjdk-amd64/bin/serialver to provide /usr/bin/serialver (serialver) in auto mode
-update-alternatives: using /usr/lib/jvm/java-21-openjdk-amd64/bin/jhsdb to provide /usr/bin/jhsdb (jhsdb) in auto mode
-7[50;0f[42m[30mProgress: [ 53%][49m[39m [######################################################################################################.........................................................................................] 8Setting up java-wrappers (0.4) ...
-7[50;0f[42m[30mProgress: [ 54%][49m[39m [########################################################################################################.......................................................................................] 87[50;0f[42m[30mProgress: [ 55%][49m[39m [#########################################################################################################......................................................................................] 8Setting up libxmlgraphics-commons-java (2.8-2) ...
-7[50;0f[42m[30mProgress: [ 56%][49m[39m [###########################################################################################################....................................................................................] 87[50;0f[42m[30mProgress: [ 57%][49m[39m [#############################################################################################################..................................................................................] 8Setting up libpthread-stubs0-dev:amd64 (0.4-1build3) ...
-7[50;0f[42m[30mProgress: [ 58%][49m[39m [###############################################################################################################................................................................................] 87[50;0f[42m[30mProgress: [ 59%][49m[39m [#################################################################################################################..............................................................................] 8Setting up openjdk-21-jdk:amd64 (21.0.6+7-1~24.04.1) ...
-7[50;0f[42m[30mProgress: [ 60%][49m[39m [###################################################################################################################............................................................................] 8update-alternatives: using /usr/lib/jvm/java-21-openjdk-amd64/bin/jconsole to provide /usr/bin/jconsole (jconsole) in auto mode
-7[50;0f[42m[30mProgress: [ 61%][49m[39m [#####################################################################################################################..........................................................................] 8Setting up xtrans-dev (1.4.0-1) ...
-7[50;0f[42m[30mProgress: [ 62%][49m[39m [#######################################################################################################################........................................................................] 87[50;0f[42m[30mProgress: [ 63%][49m[39m [#########################################################################################################################......................................................................] 8Setting up default-jdk-headless (2:1.21-75+exp1) ...
-7[50;0f[42m[30mProgress: [ 64%][49m[39m [##########################################################################################################################.....................................................................] 87[50;0f[42m[30mProgress: [ 65%][49m[39m [############################################################################################################################...................................................................] 8Setting up libitext5-java (5.5.13.3-4) ...
-7[50;0f[42m[30mProgress: [ 66%][49m[39m [##############################################################################################################################.................................................................] 87[50;0f[42m[30mProgress: [ 67%][49m[39m [################################################################################################################################...............................................................] 8Setting up libactivation-java (1.2.0-2) ...
-7[50;0f[42m[30mProgress: [ 68%][49m[39m [##################################################################################################################################.............................................................] 87[50;0f[42m[30mProgress: [ 69%][49m[39m [####################################################################################################################################...........................................................] 8Setting up libxml-commons-external-java (1.4.01-6) ...
-7[50;0f[42m[30mProgress: [ 70%][49m[39m [######################################################################################################################################.........................................................] 87[50;0f[42m[30mProgress: [ 71%][49m[39m [########################################################################################################################################.......................................................] 8Setting up xorg-sgml-doctools (1:1.11-1.1) ...
-7[50;0f[42m[30mProgress: [ 72%][49m[39m [##########################################################################################################################################.....................................................] 8Setting up libjam-java (0.1.git20180106.740247a+dfsg-1) ...
-7[50;0f[42m[30mProgress: [ 73%][49m[39m [###########################################################################################################################################....................................................] 87[50;0f[42m[30mProgress: [ 74%][49m[39m [#############################################################################################################################################..................................................] 8Setting up libjaxp1.3-java (1.3.05-6) ...
-7[50;0f[42m[30mProgress: [ 75%][49m[39m [###############################################################################################################################################................................................] 87[50;0f[42m[30mProgress: [ 76%][49m[39m [#################################################################################################################################################..............................................] 8Setting up libbatik-java (1.17+dfsg-1) ...
-7[50;0f[42m[30mProgress: [ 77%][49m[39m [###################################################################################################################################################............................................] 87[50;0f[42m[30mProgress: [ 78%][49m[39m [#####################################################################################################################################################..........................................] 8Setting up default-jdk (2:1.21-75+exp1) ...
-7[50;0f[42m[30mProgress: [ 79%][49m[39m [#######################################################################################################################################################........................................] 87[50;0f[42m[30mProgress: [ 80%][49m[39m [#########################################################################################################################################################......................................] 8Setting up figtree (1.4.4-6) ...
-7[50;0f[42m[30mProgress: [ 81%][49m[39m [###########################################################################################################################################################....................................] 8Processing triggers for sgml-base (1.31) ...
-7[50;0f[42m[30mProgress: [ 82%][49m[39m [############################################################################################################################################################...................................] 8Processing triggers for menu (2.1.50) ...
-7[50;0f[42m[30mProgress: [ 83%][49m[39m [##############################################################################################################################################################.................................] 8Setting up x11proto-dev (2023.2-1) ...
-7[50;0f[42m[30mProgress: [ 84%][49m[39m [################################################################################################################################################################...............................] 87[50;0f[42m[30mProgress: [ 85%][49m[39m [##################################################################################################################################################################.............................] 8Setting up libxau-dev:amd64 (1:1.0.9-1build6) ...
-7[50;0f[42m[30mProgress: [ 86%][49m[39m [####################################################################################################################################################################...........................] 87[50;0f[42m[30mProgress: [ 87%][49m[39m [######################################################################################################################################################################.........................] 8Setting up libice-dev:amd64 (2:1.0.10-1build3) ...
-7[50;0f[42m[30mProgress: [ 88%][49m[39m [########################################################################################################################################################################.......................] 87[50;0f[42m[30mProgress: [ 89%][49m[39m [##########################################################################################################################################################################.....................] 8Setting up libsm-dev
