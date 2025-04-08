@@ -1,3 +1,4 @@
+script raxml.txt
 Script started 
 
 sudo apt update
