@@ -1,0 +1,26 @@
+script raxml.txt
+Script started 
+
+sudo apt update
+sudo apt install -y raxml mafft ncbi-entrez-direct
+efetch -db nucleotide -id AJ009655.1,K02233.1,J02989.1,MB126818.1,EU009579.1 -formatfasta > sequences.fasta
+cat sequences.fasta
+
+>AJ009655.1 Homo sapiens ins gene, partial
+
+>EU009579.1 Danio rerio insulin receptor b (IRb) gene, partial cds
+
+>J02989.1 Owl monkey (A.trivirgatus) insulin gene, complete cds
+
+>K02233.1 Guinea pig insulin gene, complete cds
+
+>MB126818.1 JP 2019108343-A/11: O-GLYCOSYLATED CARBOXY TERMINAL PORTION (CTP) PEPTIDE-BASED INSULIN AND INSULIN ANALOGUES
+
+cat sequences*.fasta > combined.fasta
+cat combined.fasta
+
+mafft --auto combined.fasta > aligned_sequences.fasta
+ iqtree2 -s aligned_sequences.fasta -m TEST
+
+figtree RAxML_bestTree.phylo_tree
+
