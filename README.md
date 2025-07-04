@@ -1,3 +1,2 @@
-Using Scripting to perform 
-1. Sequence Alignment ( Using different types of BLAST for nucleotide and protein sequences)
-2. Phylogenomics( RAxML to construct Phylogenetic trees)
+## Phylogenomics
+Constructed phylogenetic trees to study evolutionary divergence between insulin genes in humans and owl monkeys. Used MEGA and RAxML to build trees based on aligned sequences and interpret evolutionary distance.
